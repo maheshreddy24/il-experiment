@@ -1,0 +1,8 @@
+<mujoco model="hanoi_peg">
+    <worldbody>
+        <body name="peg_0" pos="0.425 0 0.09">
+            <geom name="peg_0" class="hanoi_peg" size="0.014 0.014 0.09"/>
+            <site name="peg_top_0" pos="0 0 0.09" group="5"/>
+        </body>
+    </worldbody>
+</mujoco>

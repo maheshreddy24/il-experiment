@@ -1,0 +1,21 @@
+<mujoco model="ur5e_arena">
+    <statistic center="0.3 0 0.15" extent="0.7" meansize="0.04"/>
+
+    <visual>
+        <global elevation="-20" azimuth="180"/>
+        <map znear="0.1" zfar="10.0"/>
+        <headlight diffuse="0.34 0.34 0.34" ambient="0.28 0.28 0.28" specular="0 0 0"/>
+    </visual>
+
+    <asset>
+        <texture name="grid" type="2d" builtin="checker" rgb1="0.8275 0.8350 0.8475" rgb2="0.7650 0.7800 0.8000" mark="cross" markrgb="0.6500 0.6850 0.7400" width="820" height="820"/>
+        <material name="grid" texture="grid" texrepeat="1 1" texuniform="false" rgba="0.8450 0.8525 0.8650 1.0" reflectance="0.0" specular="0.0" shininess="0.0"/>
+        <texture name="skybox" type="skybox" builtin="gradient" rgb1="0.15 0.18 0.25" rgb2="0 0 0" mark="random" markrgb="1 1 1" width="1024" height="1024" random="0.005"/>
+    </asset>
+
+    <worldbody>
+        <light name="global" pos="0 0 2" directional="true"/>
+        <light name="spotlight" pos="0.25 0 .5" dir="0 0 -1" cutoff="100" castshadow="false" diffuse="0.3 0.3 0.3"/>
+        <geom name="floor" size="1.6 1.6 0.01" type="plane" material="grid" group="1"/>
+    </worldbody>
+</mujoco>

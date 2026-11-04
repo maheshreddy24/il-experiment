@@ -1,0 +1,12 @@
+<mujoco model="hanoi_disk">
+    <worldbody>
+        <body name="disk_0" pos="0.425 0 0.012">
+            <freejoint name="disk_joint_0"/>
+            <geom name="disk_left_0" class="hanoi_disk" size="0.01 0.01 0.01"/>
+            <geom name="disk_right_0" class="hanoi_disk" size="0.01 0.01 0.01"/>
+            <geom name="disk_front_0" class="hanoi_disk" size="0.01 0.01 0.01"/>
+            <geom name="disk_back_0" class="hanoi_disk" size="0.01 0.01 0.01"/>
+            <site name="com_0" group="5"/>
+        </body>
+    </worldbody>
+</mujoco>

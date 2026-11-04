@@ -1,0 +1,28 @@
+<mujoco model="bowling_outer">
+    <compiler angle="radian" inertiafromgeom="auto" inertiagrouprange="1 5"/>
+
+    <asset>
+        <material name="bowling_ball" rgba="0.35 0.55 0.91 1.0" shininess="0.3" reflectance="0.05" specular="0.2"/>
+        <material name="bowling_pin" rgba="0.96 0.965 0.96 1" shininess="0.1" reflectance="0.02" specular="0.03"/>
+        <material name="bowling_pin_stripe" rgba="0.96 0.26 0.33 1.0" shininess="0.1" reflectance="0.02" specular="0.03"/>
+        <mesh name="bowling_pin_mesh" file="bowling/assets/bowling_pin_body.obj" scale="0.02778 0.02778 0.02778"/>
+        <mesh name="bowling_pin_stripe_mesh" file="bowling/assets/bowling_pin_stripe.obj" scale="0.02778 0.02778 0.02778"/>
+    </asset>
+
+    <default>
+        <default class="bowling_ball">
+            <geom type="sphere" material="bowling_ball" density="200" solref="0.004 1" contype="3" group="1"/>
+            <site type="sphere" size=".005" rgba="0 1 0 1" group="5"/>
+        </default>
+        <default class="bowling_pin">
+            <geom type="mesh" mesh="bowling_pin_mesh" material="bowling_pin" mass="0.0045" solref="0.004 1" contype="3" group="1"/>
+            <site type="sphere" size=".005" rgba="0 1 0 1" group="5"/>
+        </default>
+        <default class="bowling_pin_stripe">
+            <geom type="mesh" mesh="bowling_pin_stripe_mesh" material="bowling_pin_stripe" mass="0" contype="0" conaffinity="0" group="1"/>
+        </default>
+    </default>
+
+    <worldbody>
+    </worldbody>
+</mujoco>

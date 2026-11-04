@@ -1,0 +1,22 @@
+# Python / editors
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Large artifacts: model checkpoints, rollout/analysis arrays, run directories, datasets
+*.pt
+*.npz
+*.pkl
+checkpoints/
+ocbench/impls/checkpoints/
+ocbench/impls/exp/
+wandb/
+*.mp4
+
+# Logs from long runs
+*.log
+
+# Upstream ocbench's original git history (moved aside when vendoring)
+ocbench.git.bak/
