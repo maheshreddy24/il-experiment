@@ -1,0 +1,161 @@
+2026-11-02 14:28:07,510 - INFO - [step 500] loss value 1.0841 critic 1.7811 actor 0.5203 (val actor 0.2057) | V 0.784 Q 0.817 Q succ/fail 0.820/0.802 | 1.41 it/s
+2026-11-02 14:33:47,749 - INFO - [step 1000] loss value 0.9088 critic 1.8883 actor 0.2080 (val actor 0.1618) | V 0.929 Q 0.938 Q succ/fail 0.942/0.922 | 1.47 it/s
+2026-11-02 14:39:28,039 - INFO - [step 1500] loss value 0.6989 critic 1.7447 actor 0.1756 (val actor 0.1519) | V 0.928 Q 0.939 Q succ/fail 0.945/0.917 | 1.47 it/s
+2026-11-02 14:45:08,328 - INFO - [step 2000] loss value 0.7452 critic 1.7033 actor 0.1524 (val actor 0.1235) | V 0.942 Q 0.947 Q succ/fail 0.952/0.927 | 1.47 it/s
+2026-11-02 14:50:48,560 - INFO - [step 2500] loss value 0.7508 critic 1.7077 actor 0.1421 (val actor 0.1442) | V 0.945 Q 0.949 Q succ/fail 0.953/0.929 | 1.47 it/s
+2026-11-02 14:56:29,269 - INFO - [step 3000] loss value 0.7352 critic 1.6728 actor 0.1347 (val actor 0.0985) | V 0.947 Q 0.949 Q succ/fail 0.954/0.930 | 1.47 it/s
+2026-11-02 15:02:09,520 - INFO - [step 3500] loss value 0.7305 critic 1.6324 actor 0.1267 (val actor 0.1223) | V 0.949 Q 0.950 Q succ/fail 0.955/0.931 | 1.47 it/s
+2026-11-02 15:07:49,770 - INFO - [step 4000] loss value 0.7270 critic 1.6083 actor 0.1243 (val actor 0.1083) | V 0.950 Q 0.950 Q succ/fail 0.955/0.931 | 1.47 it/s
+2026-11-02 15:13:30,139 - INFO - [step 4500] loss value 0.7224 critic 1.5938 actor 0.1189 (val actor 0.1007) | V 0.950 Q 0.950 Q succ/fail 0.955/0.930 | 1.47 it/s
+2026-11-02 15:19:10,371 - INFO - [step 5000] loss value 0.7207 critic 1.5849 actor 0.1181 (val actor 0.1316) | V 0.950 Q 0.950 Q succ/fail 0.955/0.930 | 1.47 it/s
+2026-11-02 15:24:50,600 - INFO - [step 5500] loss value 0.7236 critic 1.5780 actor 0.1142 (val actor 0.1105) | V 0.950 Q 0.950 Q succ/fail 0.955/0.930 | 1.47 it/s
+2026-11-02 15:30:31,151 - INFO - [step 6000] loss value 0.7195 critic 1.5573 actor 0.1123 (val actor 0.1011) | V 0.950 Q 0.950 Q succ/fail 0.955/0.929 | 1.47 it/s
+2026-11-02 15:36:11,380 - INFO - [step 6500] loss value 0.7195 critic 1.5592 actor 0.1091 (val actor 0.1106) | V 0.950 Q 0.950 Q succ/fail 0.955/0.928 | 1.47 it/s
+2026-11-02 15:41:51,671 - INFO - [step 7000] loss value 0.7194 critic 1.5591 actor 0.1072 (val actor 0.1110) | V 0.950 Q 0.950 Q succ/fail 0.955/0.928 | 1.47 it/s
+2026-11-02 15:47:31,882 - INFO - [step 7500] loss value 0.7182 critic 1.5415 actor 0.1036 (val actor 0.0941) | V 0.950 Q 0.950 Q succ/fail 0.955/0.927 | 1.47 it/s
+2026-11-02 15:53:12,093 - INFO - [step 8000] loss value 0.7245 critic 1.5387 actor 0.1047 (val actor 0.1009) | V 0.950 Q 0.950 Q succ/fail 0.955/0.926 | 1.47 it/s
+2026-11-02 15:58:52,602 - INFO - [step 8500] loss value 0.7195 critic 1.5315 actor 0.1002 (val actor 0.0874) | V 0.950 Q 0.949 Q succ/fail 0.955/0.925 | 1.47 it/s
+2026-11-02 16:04:32,812 - INFO - [step 9000] loss value 0.7199 critic 1.5263 actor 0.1004 (val actor 0.0961) | V 0.950 Q 0.949 Q succ/fail 0.955/0.924 | 1.47 it/s
+2026-11-02 16:10:13,022 - INFO - [step 9500] loss value 0.7221 critic 1.5309 actor 0.0985 (val actor 0.1058) | V 0.949 Q 0.949 Q succ/fail 0.955/0.924 | 1.47 it/s
+2026-11-02 16:15:53,252 - INFO - [step 10000] loss value 0.7147 critic 1.5173 actor 0.0965 (val actor 0.1031) | V 0.949 Q 0.949 Q succ/fail 0.955/0.923 | 1.47 it/s
+2026-11-02 16:16:51,433 - INFO - [step 10000] Eval ifql: success 0.080, length 1201, Q_init 0.933 (succ eps 0.939 / fail eps 0.932), selection gain 0.0216 (58s)
+2026-11-02 16:17:34,049 - INFO - [step 10000] Eval flow_bc: success 0.030, length 1234, Q_init 0.924 (succ eps 0.925 / fail eps 0.924), selection gain 0.0000 (43s)
+2026-11-02 16:17:41,383 - INFO - Checkpoint saved at checkpoints/ifql_torch_1793629332/model_step_10000.pt
+2026-11-02 16:23:21,847 - INFO - [step 10500] loss value 0.7197 critic 1.5252 actor 0.0961 (val actor 0.0916) | V 0.949 Q 0.949 Q succ/fail 0.955/0.922 | 1.12 it/s
+2026-11-02 16:29:02,057 - INFO - [step 11000] loss value 0.7220 critic 1.5173 actor 0.0954 (val actor 0.0753) | V 0.949 Q 0.949 Q succ/fail 0.955/0.921 | 1.47 it/s
+2026-11-02 16:34:42,695 - INFO - [step 11500] loss value 0.7111 critic 1.5061 actor 0.0937 (val actor 0.0809) | V 0.949 Q 0.948 Q succ/fail 0.955/0.920 | 1.47 it/s
+2026-11-02 16:40:22,919 - INFO - [step 12000] loss value 0.7200 critic 1.5136 actor 0.0919 (val actor 0.0862) | V 0.949 Q 0.948 Q succ/fail 0.955/0.919 | 1.47 it/s
+2026-11-02 16:46:03,208 - INFO - [step 12500] loss value 0.7174 critic 1.5077 actor 0.0925 (val actor 0.0831) | V 0.948 Q 0.948 Q succ/fail 0.955/0.918 | 1.47 it/s
+2026-11-02 16:51:43,418 - INFO - [step 13000] loss value 0.7103 critic 1.4938 actor 0.0902 (val actor 0.0825) | V 0.948 Q 0.948 Q succ/fail 0.956/0.917 | 1.47 it/s
+2026-11-02 16:57:23,628 - INFO - [step 13500] loss value 0.7213 critic 1.5066 actor 0.0883 (val actor 0.0792) | V 0.948 Q 0.948 Q succ/fail 0.955/0.916 | 1.47 it/s
+2026-11-02 17:03:04,218 - INFO - [step 14000] loss value 0.7127 critic 1.4944 actor 0.0879 (val actor 0.0735) | V 0.948 Q 0.948 Q succ/fail 0.955/0.914 | 1.47 it/s
+2026-11-02 17:08:44,428 - INFO - [step 14500] loss value 0.7132 critic 1.4939 actor 0.0877 (val actor 0.0842) | V 0.948 Q 0.947 Q succ/fail 0.956/0.913 | 1.47 it/s
+2026-11-02 17:14:24,639 - INFO - [step 15000] loss value 0.7223 critic 1.5005 actor 0.0848 (val actor 0.0889) | V 0.948 Q 0.948 Q succ/fail 0.956/0.913 | 1.47 it/s
+2026-11-02 17:20:04,870 - INFO - [step 15500] loss value 0.7076 critic 1.4780 actor 0.0845 (val actor 0.0843) | V 0.947 Q 0.947 Q succ/fail 0.956/0.911 | 1.47 it/s
+2026-11-02 17:25:45,079 - INFO - [step 16000] loss value 0.7134 critic 1.4844 actor 0.0842 (val actor 0.0832) | V 0.947 Q 0.947 Q succ/fail 0.956/0.910 | 1.47 it/s
+2026-11-02 17:31:25,290 - INFO - [step 16500] loss value 0.7207 critic 1.4994 actor 0.0829 (val actor 0.0899) | V 0.947 Q 0.947 Q succ/fail 0.956/0.910 | 1.47 it/s
+2026-11-02 17:37:05,779 - INFO - [step 17000] loss value 0.7013 critic 1.4601 actor 0.0817 (val actor 0.0899) | V 0.947 Q 0.947 Q succ/fail 0.956/0.906 | 1.47 it/s
+2026-11-02 17:42:45,990 - INFO - [step 17500] loss value 0.7128 critic 1.4789 actor 0.0824 (val actor 0.0931) | V 0.947 Q 0.947 Q succ/fail 0.956/0.907 | 1.47 it/s
+2026-11-02 17:48:26,360 - INFO - [step 18000] loss value 0.7129 critic 1.4799 actor 0.0808 (val actor 0.0749) | V 0.946 Q 0.946 Q succ/fail 0.956/0.905 | 1.47 it/s
+2026-11-02 17:54:06,570 - INFO - [step 18500] loss value 0.7043 critic 1.4568 actor 0.0782 (val actor 0.0883) | V 0.946 Q 0.946 Q succ/fail 0.956/0.904 | 1.47 it/s
+2026-11-02 17:59:46,781 - INFO - [step 19000] loss value 0.7118 critic 1.4680 actor 0.0791 (val actor 0.0670) | V 0.946 Q 0.946 Q succ/fail 0.957/0.903 | 1.47 it/s
+2026-11-02 18:05:27,330 - INFO - [step 19500] loss value 0.7060 critic 1.4506 actor 0.0794 (val actor 0.0899) | V 0.946 Q 0.946 Q succ/fail 0.957/0.901 | 1.47 it/s
+2026-11-02 18:11:07,540 - INFO - [step 20000] loss value 0.6994 critic 1.4467 actor 0.0765 (val actor 0.0776) | V 0.946 Q 0.946 Q succ/fail 0.957/0.899 | 1.47 it/s
+2026-11-02 18:11:58,972 - INFO - [step 20000] Eval ifql: success 0.330, length 1061, Q_init 0.935 (succ eps 0.938 / fail eps 0.934), selection gain 0.0216 (51s)
+2026-11-02 18:12:41,163 - INFO - [step 20000] Eval flow_bc: success 0.160, length 1195, Q_init 0.919 (succ eps 0.922 / fail eps 0.919), selection gain 0.0000 (42s)
+2026-11-02 18:13:10,449 - INFO - Checkpoint saved at checkpoints/ifql_torch_1793629332/model_step_20000.pt
+2026-11-02 18:18:51,012 - INFO - [step 20500] loss value 0.7101 critic 1.4575 actor 0.0771 (val actor 0.0775) | V 0.946 Q 0.946 Q succ/fail 0.957/0.900 | 1.08 it/s
+2026-11-02 18:24:31,342 - INFO - [step 21000] loss value 0.6949 critic 1.4226 actor 0.0755 (val actor 0.0977) | V 0.946 Q 0.946 Q succ/fail 0.957/0.897 | 1.47 it/s
+2026-11-02 18:30:11,552 - INFO - [step 21500] loss value 0.6997 critic 1.4299 actor 0.0757 (val actor 0.0693) | V 0.945 Q 0.945 Q succ/fail 0.957/0.896 | 1.47 it/s
+2026-11-02 18:35:51,761 - INFO - [step 22000] loss value 0.7065 critic 1.4461 actor 0.0745 (val actor 0.0917) | V 0.945 Q 0.945 Q succ/fail 0.957/0.896 | 1.47 it/s
+2026-11-02 18:41:32,624 - INFO - [step 22500] loss value 0.6816 critic 1.3884 actor 0.0726 (val actor 0.0786) | V 0.945 Q 0.946 Q succ/fail 0.958/0.893 | 1.47 it/s
+2026-11-02 18:47:12,822 - INFO - [step 23000] loss value 0.6970 critic 1.4190 actor 0.0737 (val actor 0.0809) | V 0.945 Q 0.945 Q succ/fail 0.958/0.894 | 1.47 it/s
+2026-11-02 18:52:53,073 - INFO - [step 23500] loss value 0.6974 critic 1.4153 actor 0.0723 (val actor 0.1134) | V 0.945 Q 0.945 Q succ/fail 0.958/0.892 | 1.47 it/s
+2026-11-02 18:58:33,283 - INFO - [step 24000] loss value 0.6788 critic 1.3807 actor 0.0709 (val actor 0.0847) | V 0.945 Q 0.945 Q succ/fail 0.958/0.891 | 1.47 it/s
+2026-11-02 19:04:13,492 - INFO - [step 24500] loss value 0.6909 critic 1.4005 actor 0.0710 (val actor 0.0663) | V 0.945 Q 0.945 Q succ/fail 0.958/0.889 | 1.47 it/s
+2026-11-02 19:09:54,162 - INFO - [step 25000] loss value 0.6801 critic 1.3723 actor 0.0716 (val actor 0.1040) | V 0.945 Q 0.946 Q succ/fail 0.959/0.889 | 1.47 it/s
+2026-11-02 19:15:34,373 - INFO - [step 25500] loss value 0.6729 critic 1.3646 actor 0.0693 (val actor 0.0961) | V 0.945 Q 0.945 Q succ/fail 0.959/0.886 | 1.47 it/s
+2026-11-02 19:21:14,582 - INFO - [step 26000] loss value 0.6831 critic 1.3826 actor 0.0695 (val actor 0.0714) | V 0.945 Q 0.945 Q succ/fail 0.959/0.887 | 1.47 it/s
+2026-11-02 19:26:54,912 - INFO - [step 26500] loss value 0.6668 critic 1.3505 actor 0.0672 (val actor 0.0822) | V 0.945 Q 0.945 Q succ/fail 0.959/0.886 | 1.47 it/s
+2026-11-02 19:32:35,125 - INFO - [step 27000] loss value 0.6695 critic 1.3532 actor 0.0671 (val actor 0.0645) | V 0.945 Q 0.945 Q succ/fail 0.959/0.885 | 1.47 it/s
+2026-11-02 19:38:15,333 - INFO - [step 27500] loss value 0.6761 critic 1.3627 actor 0.0688 (val actor 0.0678) | V 0.944 Q 0.945 Q succ/fail 0.959/0.885 | 1.47 it/s
+2026-11-02 19:43:56,004 - INFO - [step 28000] loss value 0.6513 critic 1.3216 actor 0.0650 (val actor 0.0756) | V 0.944 Q 0.945 Q succ/fail 0.959/0.883 | 1.47 it/s
+2026-11-02 19:49:36,213 - INFO - [step 28500] loss value 0.6625 critic 1.3410 actor 0.0666 (val actor 0.0753) | V 0.944 Q 0.945 Q succ/fail 0.960/0.882 | 1.47 it/s
+2026-11-02 19:55:16,423 - INFO - [step 29000] loss value 0.6589 critic 1.3281 actor 0.0657 (val actor 0.0731) | V 0.945 Q 0.945 Q succ/fail 0.960/0.883 | 1.47 it/s
+2026-11-02 20:00:56,634 - INFO - [step 29500] loss value 0.6466 critic 1.3057 actor 0.0637 (val actor 0.0732) | V 0.944 Q 0.945 Q succ/fail 0.960/0.881 | 1.47 it/s
+2026-11-02 20:06:36,845 - INFO - [step 30000] loss value 0.6543 critic 1.3204 actor 0.0636 (val actor 0.0743) | V 0.944 Q 0.945 Q succ/fail 0.960/0.882 | 1.47 it/s
+2026-11-02 20:07:30,173 - INFO - [step 30000] Eval ifql: success 0.370, length 1071, Q_init 0.941 (succ eps 0.945 / fail eps 0.938), selection gain 0.0203 (53s)
+2026-11-02 20:08:13,795 - INFO - [step 30000] Eval flow_bc: success 0.190, length 1185, Q_init 0.920 (succ eps 0.910 / fail eps 0.923), selection gain 0.0000 (44s)
+2026-11-02 20:08:43,038 - INFO - Checkpoint saved at checkpoints/ifql_torch_1793629332/model_step_30000.pt
+2026-11-02 20:14:23,853 - INFO - [step 30500] loss value 0.6482 critic 1.3025 actor 0.0628 (val actor 0.0814) | V 0.944 Q 0.945 Q succ/fail 0.960/0.882 | 1.07 it/s
+2026-11-02 20:20:04,064 - INFO - [step 31000] loss value 0.6425 critic 1.2955 actor 0.0624 (val actor 0.0831) | V 0.944 Q 0.944 Q succ/fail 0.960/0.880 | 1.47 it/s
+2026-11-02 20:25:44,276 - INFO - [step 31500] loss value 0.6468 critic 1.3044 actor 0.0629 (val actor 0.0869) | V 0.945 Q 0.945 Q succ/fail 0.960/0.881 | 1.47 it/s
+2026-11-02 20:31:24,548 - INFO - [step 32000] loss value 0.6361 critic 1.2839 actor 0.0603 (val actor 0.0777) | V 0.944 Q 0.945 Q succ/fail 0.960/0.880 | 1.47 it/s
+2026-11-02 20:37:04,754 - INFO - [step 32500] loss value 0.6363 critic 1.2792 actor 0.0596 (val actor 0.0622) | V 0.945 Q 0.945 Q succ/fail 0.960/0.880 | 1.47 it/s
+2026-11-02 20:42:44,965 - INFO - [step 33000] loss value 0.6443 critic 1.2992 actor 0.0609 (val actor 0.0737) | V 0.944 Q 0.945 Q succ/fail 0.960/0.880 | 1.47 it/s
+2026-11-02 20:48:25,781 - INFO - [step 33500] loss value 0.6262 critic 1.2610 actor 0.0574 (val actor 0.0938) | V 0.944 Q 0.945 Q succ/fail 0.960/0.879 | 1.47 it/s
+2026-11-02 20:54:05,984 - INFO - [step 34000] loss value 0.6332 critic 1.2784 actor 0.0579 (val actor 0.0569) | V 0.944 Q 0.945 Q succ/fail 0.960/0.879 | 1.47 it/s
+2026-11-02 20:59:46,176 - INFO - [step 34500] loss value 0.6357 critic 1.2851 actor 0.0588 (val actor 0.0832) | V 0.944 Q 0.945 Q succ/fail 0.960/0.880 | 1.47 it/s
+2026-11-02 21:05:26,387 - INFO - [step 35000] loss value 0.6286 critic 1.2649 actor 0.0568 (val actor 0.0706) | V 0.944 Q 0.945 Q succ/fail 0.961/0.879 | 1.47 it/s
+2026-11-02 21:11:06,595 - INFO - [step 35500] loss value 0.6325 critic 1.2720 actor 0.0568 (val actor 0.0801) | V 0.944 Q 0.945 Q succ/fail 0.960/0.880 | 1.47 it/s
+2026-11-02 21:16:47,066 - INFO - [step 36000] loss value 0.6264 critic 1.2577 actor 0.0561 (val actor 0.0730) | V 0.944 Q 0.945 Q succ/fail 0.960/0.879 | 1.47 it/s
+2026-11-02 21:22:27,276 - INFO - [step 36500] loss value 0.6216 critic 1.2482 actor 0.0552 (val actor 0.0850) | V 0.944 Q 0.945 Q succ/fail 0.961/0.878 | 1.47 it/s
+2026-11-02 21:28:07,486 - INFO - [step 37000] loss value 0.6292 critic 1.2664 actor 0.0547 (val actor 0.0586) | V 0.944 Q 0.945 Q succ/fail 0.960/0.879 | 1.47 it/s
+2026-11-02 21:33:47,716 - INFO - [step 37500] loss value 0.6206 critic 1.2485 actor 0.0534 (val actor 0.0991) | V 0.944 Q 0.945 Q succ/fail 0.961/0.878 | 1.47 it/s
+2026-11-02 21:39:27,928 - INFO - [step 38000] loss value 0.6241 critic 1.2573 actor 0.0535 (val actor 0.0749) | V 0.944 Q 0.945 Q succ/fail 0.961/0.879 | 1.47 it/s
+2026-11-02 21:45:08,138 - INFO - [step 38500] loss value 0.6281 critic 1.2625 actor 0.0530 (val actor 0.1003) | V 0.944 Q 0.945 Q succ/fail 0.960/0.878 | 1.47 it/s
+2026-11-02 21:50:48,587 - INFO - [step 39000] loss value 0.6142 critic 1.2338 actor 0.0514 (val actor 0.0802) | V 0.944 Q 0.945 Q succ/fail 0.961/0.877 | 1.47 it/s
+2026-11-02 21:56:28,798 - INFO - [step 39500] loss value 0.6193 critic 1.2450 actor 0.0511 (val actor 0.0855) | V 0.945 Q 0.945 Q succ/fail 0.961/0.878 | 1.47 it/s
+2026-11-02 22:02:09,027 - INFO - [step 40000] loss value 0.6222 critic 1.2497 actor 0.0517 (val actor 0.0904) | V 0.944 Q 0.945 Q succ/fail 0.961/0.878 | 1.47 it/s
+2026-11-02 22:03:01,026 - INFO - [step 40000] Eval ifql: success 0.600, length 933, Q_init 0.943 (succ eps 0.945 / fail eps 0.940), selection gain 0.0123 (52s)
+2026-11-02 22:03:44,163 - INFO - [step 40000] Eval flow_bc: success 0.330, length 1107, Q_init 0.924 (succ eps 0.926 / fail eps 0.923), selection gain 0.0000 (43s)
+2026-11-02 22:04:13,753 - INFO - Checkpoint saved at checkpoints/ifql_torch_1793629332/model_step_40000.pt
+2026-11-02 22:09:54,217 - INFO - [step 40500] loss value 0.6139 critic 1.2288 actor 0.0495 (val actor 0.0797) | V 0.944 Q 0.945 Q succ/fail 0.961/0.877 | 1.08 it/s
+2026-11-02 22:15:34,427 - INFO - [step 41000] loss value 0.6197 critic 1.2430 actor 0.0503 (val actor 0.0723) | V 0.944 Q 0.945 Q succ/fail 0.961/0.878 | 1.47 it/s
+2026-11-02 22:21:15,059 - INFO - [step 41500] loss value 0.6153 critic 1.2367 actor 0.0498 (val actor 0.1159) | V 0.944 Q 0.945 Q succ/fail 0.961/0.878 | 1.47 it/s
+2026-11-02 22:26:55,267 - INFO - [step 42000] loss value 0.6150 critic 1.2284 actor 0.0478 (val actor 0.0942) | V 0.944 Q 0.944 Q succ/fail 0.961/0.877 | 1.47 it/s
+2026-11-02 22:32:35,478 - INFO - [step 42500] loss value 0.6172 critic 1.2367 actor 0.0491 (val actor 0.0706) | V 0.944 Q 0.945 Q succ/fail 0.961/0.877 | 1.47 it/s
+2026-11-02 22:38:15,768 - INFO - [step 43000] loss value 0.6081 critic 1.2200 actor 0.0479 (val actor 0.0886) | V 0.944 Q 0.945 Q succ/fail 0.961/0.878 | 1.47 it/s
+2026-11-02 22:43:55,998 - INFO - [step 43500] loss value 0.6097 critic 1.2246 actor 0.0468 (val actor 0.1169) | V 0.944 Q 0.945 Q succ/fail 0.961/0.877 | 1.47 it/s
+2026-11-02 22:49:36,208 - INFO - [step 44000] loss value 0.6138 critic 1.2290 actor 0.0475 (val actor 0.0887) | V 0.944 Q 0.945 Q succ/fail 0.961/0.877 | 1.47 it/s
+2026-11-02 22:55:16,887 - INFO - [step 44500] loss value 0.6080 critic 1.2216 actor 0.0454 (val actor 0.0770) | V 0.944 Q 0.944 Q succ/fail 0.961/0.876 | 1.47 it/s
+2026-11-02 23:00:57,089 - INFO - [step 45000] loss value 0.6133 critic 1.2258 actor 0.0451 (val actor 0.0989) | V 0.944 Q 0.945 Q succ/fail 0.961/0.878 | 1.47 it/s
+2026-11-02 23:06:37,343 - INFO - [step 45500] loss value 0.6105 critic 1.2249 actor 0.0458 (val actor 0.0739) | V 0.944 Q 0.945 Q succ/fail 0.961/0.876 | 1.47 it/s
+2026-11-02 23:12:17,549 - INFO - [step 46000] loss value 0.6120 critic 1.2276 actor 0.0440 (val actor 0.0817) | V 0.944 Q 0.945 Q succ/fail 0.961/0.877 | 1.47 it/s
+2026-11-02 23:17:57,759 - INFO - [step 46500] loss value 0.6124 critic 1.2305 actor 0.0449 (val actor 0.1052) | V 0.944 Q 0.944 Q succ/fail 0.961/0.877 | 1.47 it/s
+2026-11-02 23:23:38,350 - INFO - [step 47000] loss value 0.6074 critic 1.2140 actor 0.0434 (val actor 0.0839) | V 0.944 Q 0.945 Q succ/fail 0.961/0.877 | 1.47 it/s
+2026-11-02 23:29:18,562 - INFO - [step 47500] loss value 0.6051 critic 1.2111 actor 0.0433 (val actor 0.0766) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.47 it/s
+2026-11-02 23:34:58,770 - INFO - [step 48000] loss value 0.6083 critic 1.2193 actor 0.0436 (val actor 0.0728) | V 0.944 Q 0.944 Q succ/fail 0.961/0.876 | 1.47 it/s
+2026-11-02 23:40:39,101 - INFO - [step 48500] loss value 0.6041 critic 1.2090 actor 0.0424 (val actor 0.1030) | V 0.944 Q 0.944 Q succ/fail 0.961/0.877 | 1.47 it/s
+2026-11-02 23:46:19,311 - INFO - [step 49000] loss value 0.6056 critic 1.2102 actor 0.0421 (val actor 0.0702) | V 0.944 Q 0.945 Q succ/fail 0.961/0.876 | 1.47 it/s
+2026-11-02 23:51:59,522 - INFO - [step 49500] loss value 0.6112 critic 1.2257 actor 0.0425 (val actor 0.0783) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.47 it/s
+2026-11-02 23:57:40,154 - INFO - [step 50000] loss value 0.6033 critic 1.2098 actor 0.0404 (val actor 0.1030) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.47 it/s
+2026-11-02 23:58:30,019 - INFO - [step 50000] Eval ifql: success 0.730, length 873, Q_init 0.940 (succ eps 0.943 / fail eps 0.932), selection gain 0.0091 (50s)
+2026-11-02 23:59:11,427 - INFO - [step 50000] Eval flow_bc: success 0.540, length 1013, Q_init 0.928 (succ eps 0.932 / fail eps 0.922), selection gain 0.0000 (41s)
+2026-11-02 23:59:41,273 - INFO - Checkpoint saved at checkpoints/ifql_torch_1793629332/model_step_50000.pt
+2026-11-03 00:05:21,684 - INFO - [step 50500] loss value 0.6062 critic 1.2122 actor 0.0417 (val actor 0.0970) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.08 it/s
+2026-11-03 00:11:01,972 - INFO - [step 51000] loss value 0.6059 critic 1.2172 actor 0.0407 (val actor 0.0927) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.47 it/s
+2026-11-03 00:16:42,183 - INFO - [step 51500] loss value 0.6018 critic 1.2054 actor 0.0394 (val actor 0.0928) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.47 it/s
+2026-11-03 00:22:22,392 - INFO - [step 52000] loss value 0.6059 critic 1.2107 actor 0.0409 (val actor 0.0913) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.47 it/s
+2026-11-03 00:28:03,102 - INFO - [step 52500] loss value 0.6076 critic 1.2103 actor 0.0398 (val actor 0.1024) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.47 it/s
+2026-11-03 00:33:43,294 - INFO - [step 53000] loss value 0.6011 critic 1.2036 actor 0.0390 (val actor 0.1044) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.47 it/s
+2026-11-03 00:39:23,503 - INFO - [step 53500] loss value 0.6053 critic 1.2107 actor 0.0393 (val actor 0.1091) | V 0.944 Q 0.944 Q succ/fail 0.961/0.874 | 1.47 it/s
+2026-11-03 00:45:03,733 - INFO - [step 54000] loss value 0.5998 critic 1.2016 actor 0.0380 (val actor 0.1135) | V 0.944 Q 0.944 Q succ/fail 0.961/0.874 | 1.47 it/s
+2026-11-03 00:50:43,945 - INFO - [step 54500] loss value 0.6015 critic 1.2014 actor 0.0386 (val actor 0.1108) | V 0.944 Q 0.944 Q succ/fail 0.961/0.874 | 1.47 it/s
+2026-11-03 00:56:24,154 - INFO - [step 55000] loss value 0.6077 critic 1.2144 actor 0.0388 (val actor 0.0991) | V 0.944 Q 0.944 Q succ/fail 0.961/0.873 | 1.47 it/s
+2026-11-03 01:02:04,810 - INFO - [step 55500] loss value 0.6000 critic 1.1983 actor 0.0374 (val actor 0.1096) | V 0.944 Q 0.944 Q succ/fail 0.961/0.875 | 1.47 it/s
+2026-11-03 01:07:45,016 - INFO - [step 56000] loss value 0.6029 critic 1.2052 actor 0.0372 (val actor 0.1051) | V 0.944 Q 0.944 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 01:13:25,385 - INFO - [step 56500] loss value 0.6045 critic 1.2079 actor 0.0375 (val actor 0.1014) | V 0.943 Q 0.943 Q succ/fail 0.961/0.873 | 1.47 it/s
+2026-11-03 01:19:05,595 - INFO - [step 57000] loss value 0.5996 critic 1.1971 actor 0.0358 (val actor 0.0772) | V 0.944 Q 0.944 Q succ/fail 0.961/0.874 | 1.47 it/s
+2026-11-03 01:24:45,807 - INFO - [step 57500] loss value 0.6032 critic 1.2043 actor 0.0362 (val actor 0.0985) | V 0.943 Q 0.944 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 01:30:26,275 - INFO - [step 58000] loss value 0.6030 critic 1.2037 actor 0.0362 (val actor 0.1092) | V 0.944 Q 0.944 Q succ/fail 0.961/0.873 | 1.47 it/s
+2026-11-03 01:36:06,485 - INFO - [step 58500] loss value 0.6003 critic 1.1976 actor 0.0352 (val actor 0.0837) | V 0.944 Q 0.944 Q succ/fail 0.961/0.873 | 1.47 it/s
+2026-11-03 01:41:46,695 - INFO - [step 59000] loss value 0.6038 critic 1.2049 actor 0.0358 (val actor 0.1168) | V 0.944 Q 0.944 Q succ/fail 0.961/0.873 | 1.47 it/s
+2026-11-03 01:47:26,930 - INFO - [step 59500] loss value 0.5997 critic 1.1974 actor 0.0348 (val actor 0.0984) | V 0.943 Q 0.944 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 01:53:07,136 - INFO - [step 60000] loss value 0.6019 critic 1.2034 actor 0.0346 (val actor 0.1146) | V 0.943 Q 0.944 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 01:53:58,467 - INFO - [step 60000] Eval ifql: success 0.590, length 928, Q_init 0.942 (succ eps 0.942 / fail eps 0.940), selection gain 0.0103 (51s)
+2026-11-03 01:54:40,313 - INFO - [step 60000] Eval flow_bc: success 0.540, length 1024, Q_init 0.926 (succ eps 0.928 / fail eps 0.925), selection gain 0.0000 (42s)
+2026-11-03 01:55:09,497 - INFO - Checkpoint saved at checkpoints/ifql_torch_1793629332/model_step_60000.pt
+2026-11-03 02:00:49,827 - INFO - [step 60500] loss value 0.6038 critic 1.2020 actor 0.0351 (val actor 0.1085) | V 0.944 Q 0.944 Q succ/fail 0.961/0.873 | 1.08 it/s
+2026-11-03 02:06:30,517 - INFO - [step 61000] loss value 0.5964 critic 1.1901 actor 0.0347 (val actor 0.0990) | V 0.943 Q 0.944 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 02:12:10,728 - INFO - [step 61500] loss value 0.6009 critic 1.2027 actor 0.0338 (val actor 0.0948) | V 0.943 Q 0.944 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 02:17:51,019 - INFO - [step 62000] loss value 0.5998 critic 1.2002 actor 0.0337 (val actor 0.1270) | V 0.943 Q 0.944 Q succ/fail 0.961/0.871 | 1.47 it/s
+2026-11-03 02:23:31,228 - INFO - [step 62500] loss value 0.5975 critic 1.1925 actor 0.0336 (val actor 0.0916) | V 0.943 Q 0.943 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 02:29:11,438 - INFO - [step 63000] loss value 0.6019 critic 1.2019 actor 0.0338 (val actor 0.1142) | V 0.944 Q 0.944 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 02:34:52,029 - INFO - [step 63500] loss value 0.6007 critic 1.2003 actor 0.0332 (val actor 0.1179) | V 0.943 Q 0.944 Q succ/fail 0.961/0.871 | 1.47 it/s
+2026-11-03 02:40:32,239 - INFO - [step 64000] loss value 0.6002 critic 1.1968 actor 0.0327 (val actor 0.1262) | V 0.943 Q 0.944 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 02:46:12,449 - INFO - [step 64500] loss value 0.6014 critic 1.2051 actor 0.0331 (val actor 0.1108) | V 0.943 Q 0.943 Q succ/fail 0.961/0.870 | 1.47 it/s
+2026-11-03 02:51:52,661 - INFO - [step 65000] loss value 0.5963 critic 1.1934 actor 0.0319 (val actor 0.0956) | V 0.943 Q 0.944 Q succ/fail 0.961/0.871 | 1.47 it/s
+2026-11-03 02:57:32,869 - INFO - [step 65500] loss value 0.5973 critic 1.1923 actor 0.0324 (val actor 0.1151) | V 0.944 Q 0.944 Q succ/fail 0.961/0.872 | 1.47 it/s
+2026-11-03 03:03:13,080 - INFO - [step 66000] loss value 0.6022 critic 1.1987 actor 0.0330 (val actor 0.1004) | V 0.943 Q 0.943 Q succ/fail 0.961/0.869 | 1.47 it/s
+2026-11-03 03:08:53,974 - INFO - [step 66500] loss value 0.5960 critic 1.1865 actor 0.0310 (val actor 0.1260) | V 0.943 Q 0.943 Q succ/fail 0.961/0.871 | 1.47 it/s
+2026-11-03 03:14:34,180 - INFO - [step 67000] loss value 0.6010 critic 1.1977 actor 0.0313 (val actor 0.0987) | V 0.943 Q 0.943 Q succ/fail 0.961/0.869 | 1.47 it/s
+2026-11-03 03:20:14,469 - INFO - [step 67500] loss value 0.6047 critic 1.2042 actor 0.0321 (val actor 0.1184) | V 0.943 Q 0.943 Q succ/fail 0.961/0.870 | 1.47 it/s
+2026-11-03 03:25:54,680 - INFO - [step 68000] loss value 0.5960 critic 1.1869 actor 0.0311 (val actor 0.1115) | V 0.943 Q 0.943 Q succ/fail 0.961/0.868 | 1.47 it/s
+2026-11-03 03:31:34,891 - INFO - [step 68500] loss value 0.5992 critic 1.2019 actor 0.0309 (val actor 0.1019) | V 0.943 Q 0.943 Q succ/fail 0.961/0.871 | 1.47 it/s
+2026-11-03 03:37:15,441 - INFO - [step 69000] loss value 0.5959 critic 1.1896 actor 0.0306 (val actor 0.1041) | V 0.943 Q 0.943 Q succ/fail 0.961/0.870 | 1.47 it/s
+2026-11-03 03:42:55,651 - INFO - [step 69500] loss value 0.5964 critic 1.1915 actor 0.0301 (val actor 0.0930) | V 0.943 Q 0.944 Q succ/fail 0.961/0.870 | 1.47 it/s
+2026-11-03 03:48:35,862 - INFO - [step 70000] loss value 0.5978 critic 1.1922 actor 0.0308 (val actor 0.1133) | V 0.943 Q 0.943 Q succ/fail 0.961/0.869 | 1.47 it/s
+2026-11-03 03:49:26,823 - INFO - [step 70000] Eval ifql: success 0.640, length 875, Q_init 0.938 (succ eps 0.944 / fail eps 0.928), selection gain 0.0084 (51s)
+2026-11-03 03:50:09,177 - INFO - [step 70000] Eval flow_bc: success 0.520, length 1002, Q_init 0.930 (succ eps 0.930 / fail eps 0.929), selection gain 0.0000 (42s)
+2026-11-03 03:50:38,529 - INFO - Checkpoint saved at checkpoints/ifql_torch_1793629332/model_step_70000.pt

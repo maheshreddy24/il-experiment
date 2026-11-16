@@ -94,6 +94,33 @@ def infinite(loader):
         yield from loader
 
 
+class Batches:
+    """Endless batches from a DataLoader whose worker processes can be shut down explicitly. Forked workers keep the
+    dataset arrays they were started with alive, so they must exit before a large dataset can really be freed."""
+
+    def __init__(self, dataset, **loader_kwargs):
+        self.loader = DataLoader(dataset, **loader_kwargs)
+        self._it = None
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self._it is None:
+            self._it = iter(self.loader)
+        try:
+            return next(self._it)
+        except StopIteration:
+            self._it = iter(self.loader)
+            return next(self._it)
+
+    def close(self):
+        it = getattr(self.loader, '_iterator', None) or self._it
+        if it is not None and hasattr(it, '_shutdown_workers'):
+            it._shutdown_workers()
+        self._it = self.loader = None
+
+
 def parse_overrides(config, argv):
     """`--set key=value [key=value ...]` on the command line overrides config entries (values parsed as Python)."""
     if '--set' in argv:
@@ -119,7 +146,7 @@ class Optimisation:
         self.group_idx = 0
         self.loader_kwargs = dict(batch_size=config['batch_size'], shuffle=True, drop_last=True, pin_memory=True)
         self.set_train_set(train_set)
-        self.val_iter = infinite(DataLoader(val_set, num_workers=2, persistent_workers=True, **self.loader_kwargs))
+        self.val_iter = Batches(val_set, num_workers=0, **self.loader_kwargs)  # no workers: they would pin train data
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=config['learning_rate'])
         self.global_step = 0
         if resume_ckpt is None:
@@ -135,12 +162,13 @@ class Optimisation:
             self.logger.info(f"Resumed from {config['resume']} at step {self.global_step}")
 
     def set_train_set(self, train_set):
-        self.train_iter = infinite(DataLoader(train_set, num_workers=self.config['num_workers'], persistent_workers=True,
-                                              **self.loader_kwargs))
+        self.train_iter = Batches(train_set, num_workers=self.config['num_workers'], persistent_workers=True,
+                                  **self.loader_kwargs)
         self.steps_per_epoch = len(train_set) // self.config['batch_size']
 
     def rotate(self):
-        """Swap in the next shard group: free the current one first (RAM), then load the next."""
+        """Swap in the next shard group: stop the loader workers and free the current group first, then load the next."""
+        self.train_iter.close()
         self.train_iter = None
         gc.collect()
         self.group_idx += 1

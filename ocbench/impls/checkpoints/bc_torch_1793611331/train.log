@@ -1,0 +1,83 @@
+2026-11-02 09:28:27,708 - INFO - [step 1000] Train Loss: 0.1040, Val Loss: 0.0691, 2.66 it/s
+2026-11-02 09:34:27,668 - INFO - [step 2000] Train Loss: 0.0723, Val Loss: 0.0567, 2.78 it/s
+2026-11-02 09:40:27,456 - INFO - [step 3000] Train Loss: 0.0651, Val Loss: 0.0657, 2.78 it/s
+2026-11-02 09:46:27,216 - INFO - [step 4000] Train Loss: 0.0614, Val Loss: 0.0471, 2.78 it/s
+2026-11-02 09:52:26,601 - INFO - [step 5000] Train Loss: 0.0582, Val Loss: 0.0510, 2.78 it/s
+2026-11-02 09:58:25,946 - INFO - [step 6000] Train Loss: 0.0555, Val Loss: 0.0535, 2.78 it/s
+2026-11-02 10:04:24,262 - INFO - [step 7000] Train Loss: 0.0526, Val Loss: 0.0521, 2.79 it/s
+2026-11-02 10:10:22,334 - INFO - [step 8000] Train Loss: 0.0492, Val Loss: 0.0544, 2.79 it/s
+2026-11-02 10:16:20,521 - INFO - [step 9000] Train Loss: 0.0461, Val Loss: 0.0498, 2.80 it/s
+2026-11-02 10:22:18,113 - INFO - [step 10000] Train Loss: 0.0428, Val Loss: 0.0526, 2.80 it/s
+2026-11-02 10:22:24,072 - INFO - Checkpoint saved at checkpoints/bc_torch_1793611331/model_step_10000.pt
+2026-11-02 10:28:21,197 - INFO - [step 11000] Train Loss: 0.0395, Val Loss: 0.0510, 2.76 it/s
+2026-11-02 10:34:19,183 - INFO - [step 12000] Train Loss: 0.0356, Val Loss: 0.0615, 2.79 it/s
+2026-11-02 10:40:16,497 - INFO - [step 13000] Train Loss: 0.0316, Val Loss: 0.0532, 2.80 it/s
+2026-11-02 10:46:13,843 - INFO - [step 14000] Train Loss: 0.0276, Val Loss: 0.0643, 2.80 it/s
+2026-11-02 10:52:10,682 - INFO - [step 15000] Train Loss: 0.0233, Val Loss: 0.0629, 2.80 it/s
+2026-11-02 10:58:07,412 - INFO - [step 16000] Train Loss: 0.0194, Val Loss: 0.0642, 2.80 it/s
+2026-11-02 11:04:04,495 - INFO - [step 17000] Train Loss: 0.0203, Val Loss: 0.0569, 2.80 it/s
+2026-11-02 11:10:01,950 - INFO - [step 18000] Train Loss: 0.0155, Val Loss: 0.0654, 2.80 it/s
+2026-11-02 11:15:59,395 - INFO - [step 19000] Train Loss: 0.0116, Val Loss: 0.0723, 2.80 it/s
+2026-11-02 11:21:56,577 - INFO - [step 20000] Train Loss: 0.0145, Val Loss: 0.0715, 2.80 it/s
+2026-11-02 11:22:10,350 - INFO - Checkpoint saved at checkpoints/bc_torch_1793611331/model_step_20000.pt
+2026-11-02 11:28:07,319 - INFO - [step 21000] Train Loss: 0.0092, Val Loss: 0.0525, 2.70 it/s
+2026-11-02 11:34:04,205 - INFO - [step 22000] Train Loss: 0.0076, Val Loss: 0.0587, 2.80 it/s
+2026-11-02 11:40:01,029 - INFO - [step 23000] Train Loss: 0.0078, Val Loss: 0.0679, 2.80 it/s
+2026-11-02 11:45:58,053 - INFO - [step 24000] Train Loss: 0.0070, Val Loss: 0.0493, 2.80 it/s
+2026-11-02 11:51:55,332 - INFO - [step 25000] Train Loss: 0.0058, Val Loss: 0.0602, 2.80 it/s
+2026-11-02 11:57:52,179 - INFO - [step 26000] Train Loss: 0.0056, Val Loss: 0.0607, 2.80 it/s
+2026-11-02 12:03:49,016 - INFO - [step 27000] Train Loss: 0.0057, Val Loss: 0.0709, 2.80 it/s
+2026-11-02 12:09:45,879 - INFO - [step 28000] Train Loss: 0.0049, Val Loss: 0.0631, 2.80 it/s
+2026-11-02 12:15:42,856 - INFO - [step 29000] Train Loss: 0.0045, Val Loss: 0.0606, 2.80 it/s
+2026-11-02 12:22:24,472 - INFO - [step 30000] Train Loss: 0.0046, Val Loss: 0.0658, 2.49 it/s
+2026-11-02 12:22:38,207 - INFO - Checkpoint saved at checkpoints/bc_torch_1793611331/model_step_30000.pt
+2026-11-03 08:06:33,600 - INFO - Resumed from checkpoints/bc_torch_1793611331/last.pt at step 30000
+2026-11-03 08:12:49,640 - INFO - [step 31000] Train Loss: 0.0047, Val Loss: 0.0569, 2.67 it/s
+2026-11-03 08:18:48,842 - INFO - [step 32000] Train Loss: 0.0036, Val Loss: 0.0610, 2.78 it/s
+2026-11-03 08:24:47,898 - INFO - [step 33000] Train Loss: 0.0037, Val Loss: 0.0706, 2.79 it/s
+2026-11-03 08:30:46,791 - INFO - [step 34000] Train Loss: 0.0033, Val Loss: 0.0598, 2.79 it/s
+2026-11-03 08:36:45,364 - INFO - [step 35000] Train Loss: 0.0025, Val Loss: 0.0512, 2.79 it/s
+2026-11-03 08:42:44,146 - INFO - [step 36000] Train Loss: 0.0022, Val Loss: 0.0641, 2.79 it/s
+2026-11-03 08:48:42,705 - INFO - [step 37000] Train Loss: 0.0037, Val Loss: 0.0653, 2.79 it/s
+2026-11-03 08:54:41,017 - INFO - [step 38000] Train Loss: 0.0028, Val Loss: 0.0652, 2.79 it/s
+2026-11-03 09:00:39,436 - INFO - [step 39000] Train Loss: 0.0024, Val Loss: 0.0544, 2.79 it/s
+2026-11-03 09:06:37,954 - INFO - [step 40000] Train Loss: 0.0021, Val Loss: 0.0623, 2.79 it/s
+2026-11-03 09:07:22,508 - INFO - [step 40000] Eval success: 0.650, length: 925 (45s)
+2026-11-03 09:07:36,386 - INFO - Checkpoint saved at checkpoints/bc_torch_1793611331/model_step_40000.pt
+2026-11-03 09:13:35,680 - INFO - [step 41000] Train Loss: 0.0020, Val Loss: 0.0617, 2.39 it/s
+2026-11-03 09:19:35,087 - INFO - [step 42000] Train Loss: 0.0017, Val Loss: 0.0632, 2.78 it/s
+2026-11-03 09:25:34,429 - INFO - [step 43000] Train Loss: 0.0025, Val Loss: 0.0596, 2.78 it/s
+2026-11-03 09:31:33,733 - INFO - [step 44000] Train Loss: 0.0028, Val Loss: 0.0615, 2.78 it/s
+2026-11-03 09:37:33,104 - INFO - [step 45000] Train Loss: 0.0016, Val Loss: 0.0644, 2.78 it/s
+2026-11-03 09:43:32,582 - INFO - [step 46000] Train Loss: 0.0013, Val Loss: 0.0657, 2.78 it/s
+2026-11-03 09:49:32,486 - INFO - [step 47000] Train Loss: 0.0016, Val Loss: 0.0583, 2.78 it/s
+2026-11-03 09:55:31,449 - INFO - [step 48000] Train Loss: 0.0026, Val Loss: 0.0644, 2.79 it/s
+2026-11-03 10:01:30,350 - INFO - [step 49000] Train Loss: 0.0022, Val Loss: 0.0738, 2.79 it/s
+2026-11-03 10:07:29,454 - INFO - [step 50000] Train Loss: 0.0014, Val Loss: 0.0689, 2.79 it/s
+2026-11-03 10:08:05,098 - INFO - [step 50000] Eval success: 0.690, length: 913 (36s)
+2026-11-03 10:08:19,006 - INFO - Checkpoint saved at checkpoints/bc_torch_1793611331/model_step_50000.pt
+2026-11-03 10:14:17,886 - INFO - [step 51000] Train Loss: 0.0011, Val Loss: 0.0532, 2.45 it/s
+2026-11-03 10:20:16,814 - INFO - [step 52000] Train Loss: 0.0014, Val Loss: 0.0582, 2.79 it/s
+2026-11-03 10:26:15,595 - INFO - [step 53000] Train Loss: 0.0018, Val Loss: 0.0620, 2.79 it/s
+2026-11-03 10:32:15,137 - INFO - [step 54000] Train Loss: 0.0016, Val Loss: 0.0469, 2.78 it/s
+2026-11-03 10:38:14,150 - INFO - [step 55000] Train Loss: 0.0014, Val Loss: 0.0580, 2.79 it/s
+2026-11-03 10:44:13,267 - INFO - [step 56000] Train Loss: 0.0011, Val Loss: 0.0610, 2.79 it/s
+2026-11-03 10:50:12,229 - INFO - [step 57000] Train Loss: 0.0011, Val Loss: 0.0697, 2.79 it/s
+2026-11-03 10:56:11,355 - INFO - [step 58000] Train Loss: 0.0014, Val Loss: 0.0632, 2.79 it/s
+2026-11-03 11:02:10,355 - INFO - [step 59000] Train Loss: 0.0022, Val Loss: 0.0603, 2.79 it/s
+2026-11-03 11:08:09,044 - INFO - [step 60000] Train Loss: 0.0020, Val Loss: 0.0617, 2.79 it/s
+2026-11-03 11:08:44,267 - INFO - [step 60000] Eval success: 0.740, length: 884 (35s)
+2026-11-03 11:08:57,951 - INFO - Checkpoint saved at checkpoints/bc_torch_1793611331/model_step_60000.pt
+2026-11-03 11:14:57,173 - INFO - [step 61000] Train Loss: 0.0011, Val Loss: 0.0604, 2.45 it/s
+2026-11-03 11:20:56,736 - INFO - [step 62000] Train Loss: 0.0009, Val Loss: 0.0697, 2.78 it/s
+2026-11-03 11:26:56,371 - INFO - [step 63000] Train Loss: 0.0008, Val Loss: 0.0648, 2.78 it/s
+2026-11-03 11:32:55,346 - INFO - [step 64000] Train Loss: 0.0020, Val Loss: 0.0669, 2.79 it/s
+2026-11-03 11:38:54,568 - INFO - [step 65000] Train Loss: 0.0015, Val Loss: 0.0529, 2.78 it/s
+2026-11-03 11:44:53,815 - INFO - [step 66000] Train Loss: 0.0012, Val Loss: 0.0610, 2.78 it/s
+2026-11-03 11:50:52,672 - INFO - [step 67000] Train Loss: 0.0009, Val Loss: 0.0675, 2.79 it/s
+2026-11-03 11:56:51,669 - INFO - [step 68000] Train Loss: 0.0010, Val Loss: 0.0559, 2.79 it/s
+2026-11-03 12:02:50,486 - INFO - [step 69000] Train Loss: 0.0011, Val Loss: 0.0643, 2.79 it/s
+2026-11-03 12:08:49,590 - INFO - [step 70000] Train Loss: 0.0014, Val Loss: 0.0619, 2.79 it/s
+2026-11-03 12:09:25,187 - INFO - [step 70000] Eval success: 0.620, length: 944 (36s)
+2026-11-03 12:09:38,639 - INFO - Checkpoint saved at checkpoints/bc_torch_1793611331/model_step_70000.pt
+2026-11-03 12:09:52,954 - INFO - Checkpoint saved at checkpoints/bc_torch_1793611331/model_step_70000.pt

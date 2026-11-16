@@ -1,0 +1,98 @@
+2026-11-04 12:32:36,442 - INFO - [step 1000] Train Loss: 0.1159, Val Loss: 0.0791, 2.67 it/s
+2026-11-04 12:38:36,272 - INFO - [step 2000] Train Loss: 0.0848, Val Loss: 0.0723, 2.78 it/s
+2026-11-04 12:44:35,600 - INFO - [step 3000] Train Loss: 0.0767, Val Loss: 0.0721, 2.78 it/s
+2026-11-04 12:50:34,099 - INFO - [step 4000] Train Loss: 0.0671, Val Loss: 0.0752, 2.79 it/s
+2026-11-04 12:56:31,962 - INFO - [step 5000] Train Loss: 0.0579, Val Loss: 0.0691, 2.80 it/s
+2026-11-04 13:09:04,325 - INFO - [step 5000] Rotated to shard group 1 (752s)
+2026-11-04 13:15:07,045 - INFO - [step 6000] Train Loss: 0.0749, Val Loss: 0.0734, 0.90 it/s
+2026-11-04 13:21:04,946 - INFO - [step 7000] Train Loss: 0.0606, Val Loss: 0.0719, 2.80 it/s
+2026-11-04 13:27:02,720 - INFO - [step 8000] Train Loss: 0.0469, Val Loss: 0.0796, 2.80 it/s
+2026-11-04 13:32:59,967 - INFO - [step 9000] Train Loss: 0.0336, Val Loss: 0.0744, 2.80 it/s
+2026-11-04 13:38:57,467 - INFO - [step 10000] Train Loss: 0.0225, Val Loss: 0.0752, 2.80 it/s
+2026-11-04 13:40:18,585 - INFO - [step 10000] Eval success: 0.100, length: 2451 (81s)
+2026-11-04 13:40:27,760 - INFO - Checkpoint saved at checkpoints/bc_double/model_step_10000.pt
+2026-11-04 13:47:14,149 - INFO - [step 10000] Rotated to shard group 2 (404s)
+2026-11-04 13:53:14,844 - INFO - [step 11000] Train Loss: 0.0660, Val Loss: 0.0785, 1.17 it/s
+2026-11-04 13:59:12,731 - INFO - [step 12000] Train Loss: 0.0419, Val Loss: 0.0822, 2.80 it/s
+2026-11-04 14:05:10,186 - INFO - [step 13000] Train Loss: 0.0234, Val Loss: 0.0780, 2.80 it/s
+2026-11-04 14:11:07,806 - INFO - [step 14000] Train Loss: 0.0145, Val Loss: 0.0842, 2.80 it/s
+2026-11-04 14:17:04,812 - INFO - [step 15000] Train Loss: 0.0107, Val Loss: 0.0753, 2.80 it/s
+2026-11-04 14:23:34,660 - INFO - [step 15000] Rotated to shard group 3 (388s)
+2026-11-04 14:29:34,499 - INFO - [step 16000] Train Loss: 0.0640, Val Loss: 0.0704, 1.33 it/s
+2026-11-04 14:35:31,785 - INFO - [step 17000] Train Loss: 0.0348, Val Loss: 0.0751, 2.80 it/s
+2026-11-04 14:41:29,370 - INFO - [step 18000] Train Loss: 0.0178, Val Loss: 0.0748, 2.80 it/s
+2026-11-04 14:47:26,770 - INFO - [step 19000] Train Loss: 0.0113, Val Loss: 0.0637, 2.80 it/s
+2026-11-04 14:53:24,127 - INFO - [step 20000] Train Loss: 0.0092, Val Loss: 0.0684, 2.80 it/s
+2026-11-04 14:54:37,648 - INFO - [step 20000] Eval success: 0.070, length: 2469 (74s)
+2026-11-04 14:54:50,531 - INFO - Checkpoint saved at checkpoints/bc_double/model_step_20000.pt
+2026-11-04 15:01:01,148 - INFO - [step 20000] Rotated to shard group 4 (369s)
+2026-11-04 15:07:00,325 - INFO - [step 21000] Train Loss: 0.0611, Val Loss: 0.0737, 1.23 it/s
+2026-11-04 15:12:57,324 - INFO - [step 22000] Train Loss: 0.0302, Val Loss: 0.0781, 2.80 it/s
+2026-11-04 15:18:54,413 - INFO - [step 23000] Train Loss: 0.0147, Val Loss: 0.0708, 2.80 it/s
+2026-11-04 15:24:51,466 - INFO - [step 24000] Train Loss: 0.0096, Val Loss: 0.0800, 2.80 it/s
+2026-11-04 15:30:48,438 - INFO - [step 25000] Train Loss: 0.0077, Val Loss: 0.0648, 2.80 it/s
+2026-11-04 15:36:58,353 - INFO - [step 25000] Rotated to shard group 5 (368s)
+2026-11-04 15:42:57,573 - INFO - [step 26000] Train Loss: 0.0596, Val Loss: 0.0607, 1.37 it/s
+2026-11-04 15:48:53,980 - INFO - [step 27000] Train Loss: 0.0275, Val Loss: 0.0789, 2.81 it/s
+2026-11-04 15:54:50,574 - INFO - [step 28000] Train Loss: 0.0133, Val Loss: 0.0739, 2.81 it/s
+2026-11-04 16:00:47,194 - INFO - [step 29000] Train Loss: 0.0089, Val Loss: 0.0872, 2.81 it/s
+2026-11-04 16:06:43,450 - INFO - [step 30000] Train Loss: 0.0076, Val Loss: 0.0780, 2.81 it/s
+2026-11-04 16:07:59,533 - INFO - [step 30000] Eval success: 0.060, length: 2458 (76s)
+2026-11-04 16:08:12,507 - INFO - Checkpoint saved at checkpoints/bc_double/model_step_30000.pt
+2026-11-04 16:14:13,520 - INFO - [step 30000] Rotated to shard group 6 (360s)
+2026-11-04 16:20:12,092 - INFO - [step 31000] Train Loss: 0.0592, Val Loss: 0.0754, 1.24 it/s
+2026-11-04 16:26:08,005 - INFO - [step 32000] Train Loss: 0.0261, Val Loss: 0.0734, 2.81 it/s
+2026-11-04 16:32:03,968 - INFO - [step 33000] Train Loss: 0.0120, Val Loss: 0.0703, 2.81 it/s
+2026-11-04 16:38:00,042 - INFO - [step 34000] Train Loss: 0.0080, Val Loss: 0.0693, 2.81 it/s
+2026-11-04 16:43:56,333 - INFO - [step 35000] Train Loss: 0.0069, Val Loss: 0.0639, 2.81 it/s
+2026-11-04 16:49:44,202 - INFO - [step 35000] Rotated to shard group 7 (346s)
+2026-11-04 16:55:42,584 - INFO - [step 36000] Train Loss: 0.0573, Val Loss: 0.0772, 1.42 it/s
+2026-11-04 17:01:39,075 - INFO - [step 37000] Train Loss: 0.0236, Val Loss: 0.0686, 2.81 it/s
+2026-11-04 17:07:35,113 - INFO - [step 38000] Train Loss: 0.0107, Val Loss: 0.0726, 2.81 it/s
+2026-11-04 17:13:31,470 - INFO - [step 39000] Train Loss: 0.0070, Val Loss: 0.0688, 2.81 it/s
+2026-11-04 17:19:27,385 - INFO - [step 40000] Train Loss: 0.0060, Val Loss: 0.0773, 2.81 it/s
+2026-11-04 17:20:42,792 - INFO - [step 40000] Eval success: 0.000, length: 2500 (75s)
+2026-11-04 17:20:55,768 - INFO - Checkpoint saved at checkpoints/bc_double/model_step_40000.pt
+2026-11-04 17:26:45,099 - INFO - [step 40000] Rotated to shard group 8 (348s)
+2026-11-04 17:32:43,280 - INFO - [step 41000] Train Loss: 0.0567, Val Loss: 0.0653, 1.26 it/s
+2026-11-04 17:38:38,830 - INFO - [step 42000] Train Loss: 0.0229, Val Loss: 0.0717, 2.81 it/s
+2026-11-04 17:44:34,322 - INFO - [step 43000] Train Loss: 0.0104, Val Loss: 0.0637, 2.81 it/s
+2026-11-04 17:50:30,588 - INFO - [step 44000] Train Loss: 0.0103, Val Loss: 0.0678, 2.81 it/s
+2026-11-04 17:56:27,249 - INFO - [step 45000] Train Loss: 0.0066, Val Loss: 0.0687, 2.80 it/s
+2026-11-04 18:02:11,891 - INFO - [step 45000] Rotated to shard group 9 (343s)
+2026-11-04 18:08:10,225 - INFO - [step 46000] Train Loss: 0.0572, Val Loss: 0.0561, 1.42 it/s
+2026-11-04 18:14:06,195 - INFO - [step 47000] Train Loss: 0.0219, Val Loss: 0.0697, 2.81 it/s
+2026-11-04 18:20:01,824 - INFO - [step 48000] Train Loss: 0.0104, Val Loss: 0.0650, 2.81 it/s
+2026-11-04 18:25:57,267 - INFO - [step 49000] Train Loss: 0.0071, Val Loss: 0.0645, 2.81 it/s
+2026-11-04 18:31:53,169 - INFO - [step 50000] Train Loss: 0.0065, Val Loss: 0.0620, 2.81 it/s
+2026-11-04 18:33:07,830 - INFO - [step 50000] Eval success: 0.080, length: 2467 (75s)
+2026-11-04 18:33:21,006 - INFO - Checkpoint saved at checkpoints/bc_double/model_step_50000.pt
+2026-11-04 18:39:20,742 - INFO - [step 50000] Rotated to shard group 10 (358s)
+2026-11-04 18:45:19,147 - INFO - [step 51000] Train Loss: 0.0546, Val Loss: 0.0624, 1.24 it/s
+2026-11-04 18:51:15,075 - INFO - [step 52000] Train Loss: 0.0208, Val Loss: 0.0607, 2.81 it/s
+2026-11-04 18:57:10,855 - INFO - [step 53000] Train Loss: 0.0095, Val Loss: 0.0824, 2.81 it/s
+2026-11-04 19:03:06,456 - INFO - [step 54000] Train Loss: 0.0067, Val Loss: 0.0623, 2.81 it/s
+2026-11-04 19:09:02,360 - INFO - [step 55000] Train Loss: 0.0058, Val Loss: 0.0550, 2.81 it/s
+2026-11-04 19:14:39,757 - INFO - [step 55000] Rotated to shard group 11 (336s)
+2026-11-04 19:20:36,977 - INFO - [step 56000] Train Loss: 0.0562, Val Loss: 0.0663, 1.44 it/s
+2026-11-04 19:26:32,039 - INFO - [step 57000] Train Loss: 0.0222, Val Loss: 0.0720, 2.82 it/s
+2026-11-04 19:32:26,866 - INFO - [step 58000] Train Loss: 0.0107, Val Loss: 0.0799, 2.82 it/s
+2026-11-04 19:38:21,849 - INFO - [step 59000] Train Loss: 0.0076, Val Loss: 0.0706, 2.82 it/s
+2026-11-04 19:44:16,732 - INFO - [step 60000] Train Loss: 0.0064, Val Loss: 0.0681, 2.82 it/s
+2026-11-04 19:45:32,152 - INFO - [step 60000] Eval success: 0.240, length: 2326 (75s)
+2026-11-04 19:45:45,225 - INFO - Checkpoint saved at checkpoints/bc_double/model_step_60000.pt
+2026-11-04 19:51:31,649 - INFO - [step 60000] Rotated to shard group 12 (345s)
+2026-11-04 19:57:29,821 - INFO - [step 61000] Train Loss: 0.0543, Val Loss: 0.0690, 1.26 it/s
+2026-11-04 20:03:24,665 - INFO - [step 62000] Train Loss: 0.0208, Val Loss: 0.0663, 2.82 it/s
+2026-11-04 20:09:19,258 - INFO - [step 63000] Train Loss: 0.0092, Val Loss: 0.0592, 2.82 it/s
+2026-11-04 20:15:13,801 - INFO - [step 64000] Train Loss: 0.0063, Val Loss: 0.0750, 2.82 it/s
+2026-11-04 20:21:08,415 - INFO - [step 65000] Train Loss: 0.0054, Val Loss: 0.0782, 2.82 it/s
+2026-11-04 20:27:04,222 - INFO - [step 65000] Rotated to shard group 13 (354s)
+2026-11-04 20:33:02,197 - INFO - [step 66000] Train Loss: 0.0537, Val Loss: 0.0684, 1.40 it/s
+2026-11-04 20:38:56,785 - INFO - [step 67000] Train Loss: 0.0205, Val Loss: 0.0734, 2.82 it/s
+2026-11-04 20:44:51,148 - INFO - [step 68000] Train Loss: 0.0096, Val Loss: 0.0754, 2.82 it/s
+2026-11-04 20:50:45,600 - INFO - [step 69000] Train Loss: 0.0069, Val Loss: 0.0708, 2.82 it/s
+2026-11-04 20:56:39,927 - INFO - [step 70000] Train Loss: 0.0057, Val Loss: 0.0716, 2.82 it/s
+2026-11-04 20:57:54,234 - INFO - [step 70000] Eval success: 0.220, length: 2367 (74s)
+2026-11-04 20:58:06,753 - INFO - Checkpoint saved at checkpoints/bc_double/model_step_70000.pt
+2026-11-04 20:58:20,445 - INFO - Checkpoint saved at checkpoints/bc_double/model_step_70000.pt

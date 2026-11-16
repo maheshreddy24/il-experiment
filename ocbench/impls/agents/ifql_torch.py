@@ -18,7 +18,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from bc_torch import ImpalaEncoder, ResidualMLP, infinite, parse_overrides
+from bc_torch import Batches, ImpalaEncoder, ResidualMLP, parse_overrides
 from bc_utils import ShardGroups, evaluate, fit_normalizer, get_logger, make_datasets, set_seed
 from torch.utils.data import DataLoader
 from tqdm import tqdm
@@ -90,10 +90,11 @@ def masked_mean(x, mask):
 
 
 class IFQL:
-    def __init__(self, config, train_set, val_set, normalizer, load_group=None):
-        """load_group(i) -> train set of shard group i, for shard rotation (None = everything stays in RAM)."""
+    def __init__(self, config, train_set, val_set, normalizer, load_group=None, resume_ckpt=None, start_group=0):
+        """load_group(i) -> train set of shard group i, for shard rotation (None = everything stays in RAM).
+        resume_ckpt: a loaded last.pt to continue from; start_group: the shard group train_set belongs to."""
         self.load_group = load_group
-        self.group_idx = 0
+        self.group_idx = start_group
         self.config = c = config
         self.device = torch.device("cuda")
         self.normalizer = normalizer
@@ -109,23 +110,46 @@ class IFQL:
         for name, net in [('value', self.value), ('critic', self.critic), ('actor', self.actor)]:
             print(f"{name} params: {sum(p.numel() for p in net.parameters()) / 1e6:.1f}M")
 
-        self.loader_kwargs = dict(batch_size=c['batch_size'], shuffle=True, drop_last=True, pin_memory=True,
-                                  persistent_workers=True)
+        self.loader_kwargs = dict(batch_size=c['batch_size'], shuffle=True, drop_last=True, pin_memory=True)
         self.set_train_set(train_set)
-        self.val_iter = infinite(DataLoader(val_set, num_workers=2, **self.loader_kwargs))
+        self.val_iter = Batches(val_set, num_workers=0, **self.loader_kwargs)  # no workers: they would pin train data
 
         self.run_dir = f"checkpoints/{c.get('run_name') or f'ifql_torch_{int(time.time())}'}"
+        self.global_step = 0
+        if resume_ckpt is not None:
+            self.run_dir = os.path.dirname(c['resume'])
+            self.actor.load_state_dict(resume_ckpt['actor'])
+            self.critic.load_state_dict(resume_ckpt['critic'])
+            self.value.load_state_dict(resume_ckpt['value'])
+            self.target_critic.load_state_dict(resume_ckpt['target_critic'])
+            self.optimizer.load_state_dict(resume_ckpt['optimizer'])
+            self.global_step = resume_ckpt['global_step']
+            self.trim_csvs()
         os.makedirs(os.path.join(self.run_dir, "eval"), exist_ok=True)
         self.logger = get_logger(os.path.join(self.run_dir, "train.log"))
-        self.global_step = 0
+        if resume_ckpt is not None:
+            self.logger.info(f"Resumed from {c['resume']} at step {self.global_step}, shard group {self.group_idx}")
         self.csv_writers = {}
 
+    def trim_csvs(self):
+        """After resuming: drop rows logged past the checkpoint, so the curves don't contain the lost steps twice."""
+        for name in ("metrics", "eval"):
+            path = os.path.join(self.run_dir, f"{name}.csv")
+            if os.path.exists(path):
+                with open(path, newline="") as f:
+                    rows = list(csv.reader(f))
+                kept = rows[:1] + [r for r in rows[1:] if int(float(r[0])) <= self.global_step]
+                with open(path, "w", newline="") as f:
+                    csv.writer(f).writerows(kept)
+
     def set_train_set(self, train_set):
-        self.train_iter = infinite(DataLoader(train_set, num_workers=self.config['num_workers'], **self.loader_kwargs))
+        self.train_iter = Batches(train_set, num_workers=self.config['num_workers'], persistent_workers=True,
+                                  **self.loader_kwargs)
         self.steps_per_epoch = len(train_set) // self.config['batch_size']
 
     def rotate(self):
-        """Swap in the next shard group: free the current one first (RAM), then load the next."""
+        """Swap in the next shard group: stop the loader workers and free the current group first, then load the next."""
+        self.train_iter.close()
         self.train_iter = None
         gc.collect()
         self.group_idx += 1
@@ -314,9 +338,23 @@ class IFQL:
         }
         path = os.path.join(self.run_dir, f"model_step_{self.global_step}.pt")
         torch.save(ckpt, path)
-        ckpt.update(target_critic=self.target_critic.state_dict(), optimizer=self.optimizer.state_dict())
-        torch.save(ckpt, os.path.join(self.run_dir, "last.pt"))
+        self.save_last(ckpt)
         self.logger.info(f"Checkpoint saved at {path}")
+
+    def save_last(self, ckpt=None):
+        """Everything needed to resume, written atomically: a shutdown mid-write can't corrupt last.pt."""
+        ckpt = ckpt or {
+            "actor": self.actor.state_dict(),
+            "critic": self.critic.state_dict(),
+            "value": self.value.state_dict(),
+            "action_normalizer": self.normalizer.state_dict(),
+            "global_step": self.global_step,
+            "config": self.config,
+        }
+        ckpt.update(target_critic=self.target_critic.state_dict(), optimizer=self.optimizer.state_dict())
+        path = os.path.join(self.run_dir, "last.pt")
+        torch.save(ckpt, path + ".tmp")
+        os.replace(path + ".tmp", path)
 
     def train(self):
         c = self.config
@@ -365,6 +403,8 @@ class IFQL:
                 self.rollout()
             if self.global_step % c['save_interval'] == 0:
                 self.save_checkpoint()
+            elif self.global_step % c['last_interval'] == 0:
+                self.save_last()
             if self.load_group is not None and self.global_step % c['rotate_every'] == 0 and self.global_step < c['num_steps']:
                 self.rotate()
 
@@ -404,6 +444,8 @@ if __name__ == "__main__":
         'num_workers': 8,
         'bf16': True,
         'seed': 0,
+        'resume': None,           # None = train from scratch; else a last.pt to continue from
+        'last_interval': 2000,    # steps between last.pt saves, to lose little if the machine stops
         'run_name': None,         # checkpoint dir name under checkpoints/ (None = ifql_torch_<time>)
         'shard_group_size': None, # None = all shards in RAM; else load this many shards at a time and rotate
         'rotate_every': 5000,     # steps between shard-group swaps (when shard_group_size is set)
@@ -418,10 +460,16 @@ if __name__ == "__main__":
         n_step=config['n_step'],
         discount=config['discount'],
     )
-    groups, load_group, normalizer = None, None, None
+    groups, load_group, normalizer, resume_ckpt, start_group = None, None, None, None, 0
+    if config['resume'] is not None:
+        resume_ckpt = torch.load(config['resume'], map_location="cpu", weights_only=False)
+        normalizer = bc_utils.ActionNormalizer(**resume_ckpt['action_normalizer'])  # must match the loaded weights
     if config['shard_group_size']:
         groups = ShardGroups(config['env_name'], config['num_shards'], config['shard_group_size'])
-        normalizer = fit_normalizer(groups.paths)  # one normalizer for all shards
+        if normalizer is None:
+            normalizer = fit_normalizer(groups.paths)  # one normalizer for all shards
+        if resume_ckpt is not None:
+            start_group = resume_ckpt['global_step'] // config['rotate_every']  # continue the rotation where it was
         print(f"shard rotation: {len(groups.paths)} shards in {len(groups)} groups of {config['shard_group_size']}, "
               f"swapped every {config['rotate_every']} steps")
 
@@ -431,11 +479,11 @@ if __name__ == "__main__":
 
     train_set, val_set, normalizer = make_datasets(
         config['env_name'], normalizer=normalizer, num_val_shards=config['num_val_shards'],
-        train_paths=groups[0] if groups else None, **data_kwargs)
+        train_paths=groups[start_group] if groups else None, **data_kwargs)
     print(
         f"train samples: {len(train_set)} (success frac {train_set.success.mean():.2f}), val samples: {len(val_set)}, "
         f"nonzero n-step rewards: {(train_set.rewards > 0).mean():.3f}"
     )
-    agent = IFQL(config, train_set, val_set, normalizer, load_group)
-    del train_set
+    agent = IFQL(config, train_set, val_set, normalizer, load_group, resume_ckpt, start_group)
+    del train_set, resume_ckpt
     agent.train()

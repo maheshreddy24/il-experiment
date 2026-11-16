@@ -1,0 +1,136 @@
+2026-11-05 04:40:41,431 - INFO - [step 500] loss value 0.7260 critic 1.6221 actor 0.5576 (val actor 0.2269) | V 0.539 Q 0.570 Q succ/fail 0.574/0.559 | 1.41 it/s
+2026-11-05 04:46:22,959 - INFO - [step 1000] loss value 0.8815 critic 2.1677 actor 0.2286 (val actor 0.1809) | V 0.591 Q 0.620 Q succ/fail 0.633/0.588 | 1.47 it/s
+2026-11-05 04:52:04,349 - INFO - [step 1500] loss value 0.8856 critic 2.0621 actor 0.1972 (val actor 0.1866) | V 0.577 Q 0.607 Q succ/fail 0.623/0.567 | 1.47 it/s
+2026-11-05 04:57:46,017 - INFO - [step 2000] loss value 0.8785 critic 2.0392 actor 0.1790 (val actor 0.1469) | V 0.580 Q 0.610 Q succ/fail 0.631/0.559 | 1.46 it/s
+2026-11-05 05:03:27,639 - INFO - [step 2500] loss value 0.8649 critic 2.0983 actor 0.1653 (val actor 0.1504) | V 0.602 Q 0.633 Q succ/fail 0.660/0.568 | 1.47 it/s
+2026-11-05 05:09:08,899 - INFO - [step 3000] loss value 0.8584 critic 2.0999 actor 0.1559 (val actor 0.1275) | V 0.616 Q 0.647 Q succ/fail 0.677/0.575 | 1.47 it/s
+2026-11-05 05:14:50,368 - INFO - [step 3500] loss value 0.8772 critic 2.1815 actor 0.1472 (val actor 0.1024) | V 0.634 Q 0.666 Q succ/fail 0.699/0.587 | 1.47 it/s
+2026-11-05 05:20:32,016 - INFO - [step 4000] loss value 0.9040 critic 2.2417 actor 0.1420 (val actor 0.1369) | V 0.654 Q 0.686 Q succ/fail 0.721/0.602 | 1.46 it/s
+2026-11-05 05:26:13,747 - INFO - [step 4500] loss value 0.9332 critic 2.3176 actor 0.1382 (val actor 0.1349) | V 0.671 Q 0.704 Q succ/fail 0.741/0.616 | 1.46 it/s
+2026-11-05 05:30:13,032 - INFO - [step 4500] Rotated to shard group 1 (239s)
+2026-11-05 05:35:55,681 - INFO - [step 5000] loss value 0.9721 critic 2.4076 actor 0.1366 (val actor 0.1192) | V 0.695 Q 0.728 Q succ/fail 0.765/0.634 | 0.86 it/s
+2026-11-05 05:42:06,441 - INFO - [step 5500] loss value 0.9900 critic 2.4152 actor 0.1318 (val actor 0.1353) | V 0.715 Q 0.747 Q succ/fail 0.784/0.654 | 1.35 it/s
+2026-11-05 05:47:47,590 - INFO - [step 6000] loss value 0.9857 critic 2.3806 actor 0.1292 (val actor 0.1224) | V 0.734 Q 0.765 Q succ/fail 0.803/0.669 | 1.47 it/s
+2026-11-05 05:53:28,702 - INFO - [step 6500] loss value 0.9946 critic 2.3609 actor 0.1267 (val actor 0.1142) | V 0.750 Q 0.780 Q succ/fail 0.818/0.684 | 1.47 it/s
+2026-11-05 05:59:10,088 - INFO - [step 7000] loss value 0.9893 critic 2.3093 actor 0.1232 (val actor 0.1035) | V 0.768 Q 0.796 Q succ/fail 0.833/0.701 | 1.47 it/s
+2026-11-05 06:04:50,818 - INFO - [step 7500] loss value 0.9911 critic 2.2585 actor 0.1204 (val actor 0.1158) | V 0.783 Q 0.808 Q succ/fail 0.845/0.714 | 1.47 it/s
+2026-11-05 06:10:31,748 - INFO - [step 8000] loss value 0.9810 critic 2.1936 actor 0.1197 (val actor 0.1206) | V 0.798 Q 0.819 Q succ/fail 0.856/0.725 | 1.47 it/s
+2026-11-05 06:16:12,658 - INFO - [step 8500] loss value 0.9677 critic 2.1358 actor 0.1184 (val actor 0.1221) | V 0.810 Q 0.829 Q succ/fail 0.865/0.736 | 1.47 it/s
+2026-11-05 06:21:53,690 - INFO - [step 9000] loss value 0.9655 critic 2.0882 actor 0.1140 (val actor 0.1100) | V 0.821 Q 0.836 Q succ/fail 0.873/0.744 | 1.47 it/s
+2026-11-05 06:25:55,237 - INFO - [step 9000] Rotated to shard group 2 (241s)
+2026-11-05 06:31:37,339 - INFO - [step 9500] loss value 1.0168 critic 2.2529 actor 0.1205 (val actor 0.1181) | V 0.836 Q 0.850 Q succ/fail 0.872/0.792 | 0.86 it/s
+2026-11-05 06:37:18,034 - INFO - [step 10000] loss value 0.9609 critic 2.1306 actor 0.1165 (val actor 0.0976) | V 0.845 Q 0.856 Q succ/fail 0.879/0.798 | 1.47 it/s
+2026-11-05 06:39:08,545 - INFO - [step 10000] Eval ifql: success 0.000, length 2500, Q_init 0.772 (succ eps nan / fail eps 0.772), selection gain 0.0312 (111s)
+2026-11-05 06:40:33,335 - INFO - [step 10000] Eval flow_bc: success 0.000, length 2500, Q_init 0.749 (succ eps nan / fail eps 0.749), selection gain 0.0000 (85s)
+2026-11-05 06:40:40,524 - INFO - Checkpoint saved at checkpoints/ifql_double/model_step_10000.pt
+2026-11-05 06:46:22,095 - INFO - [step 10500] loss value 0.9136 critic 2.0280 actor 0.1155 (val actor 0.1310) | V 0.851 Q 0.861 Q succ/fail 0.884/0.802 | 0.92 it/s
+2026-11-05 06:52:03,025 - INFO - [step 11000] loss value 0.8917 critic 1.9818 actor 0.1126 (val actor 0.0974) | V 0.857 Q 0.865 Q succ/fail 0.888/0.806 | 1.47 it/s
+2026-11-05 06:57:43,835 - INFO - [step 11500] loss value 0.8694 critic 1.9037 actor 0.1130 (val actor 0.1547) | V 0.861 Q 0.867 Q succ/fail 0.890/0.808 | 1.47 it/s
+2026-11-05 07:03:24,406 - INFO - [step 12000] loss value 0.8592 critic 1.8635 actor 0.1098 (val actor 0.1019) | V 0.864 Q 0.869 Q succ/fail 0.893/0.809 | 1.47 it/s
+2026-11-05 07:09:05,232 - INFO - [step 12500] loss value 0.8508 critic 1.8201 actor 0.1088 (val actor 0.0925) | V 0.868 Q 0.872 Q succ/fail 0.896/0.811 | 1.47 it/s
+2026-11-05 07:14:45,708 - INFO - [step 13000] loss value 0.8362 critic 1.7720 actor 0.1073 (val actor 0.0973) | V 0.870 Q 0.873 Q succ/fail 0.897/0.811 | 1.47 it/s
+2026-11-05 07:20:26,435 - INFO - [step 13500] loss value 0.8374 critic 1.7641 actor 0.1051 (val actor 0.1221) | V 0.872 Q 0.874 Q succ/fail 0.899/0.811 | 1.47 it/s
+2026-11-05 07:24:32,748 - INFO - [step 13500] Rotated to shard group 3 (246s)
+2026-11-05 07:30:15,146 - INFO - [step 14000] loss value 0.9072 critic 1.9788 actor 0.1041 (val actor 0.1296) | V 0.875 Q 0.877 Q succ/fail 0.897/0.829 | 0.85 it/s
+2026-11-05 07:35:55,573 - INFO - [step 14500] loss value 0.8487 critic 1.8640 actor 0.1036 (val actor 0.1041) | V 0.877 Q 0.878 Q succ/fail 0.899/0.828 | 1.47 it/s
+2026-11-05 07:41:36,064 - INFO - [step 15000] loss value 0.8072 critic 1.7810 actor 0.1006 (val actor 0.1017) | V 0.877 Q 0.878 Q succ/fail 0.900/0.826 | 1.47 it/s
+2026-11-05 07:47:16,631 - INFO - [step 15500] loss value 0.8024 critic 1.7509 actor 0.1015 (val actor 0.1013) | V 0.878 Q 0.879 Q succ/fail 0.901/0.825 | 1.47 it/s
+2026-11-05 07:52:57,004 - INFO - [step 16000] loss value 0.7906 critic 1.7003 actor 0.1006 (val actor 0.1155) | V 0.878 Q 0.879 Q succ/fail 0.902/0.822 | 1.47 it/s
+2026-11-05 07:58:37,272 - INFO - [step 16500] loss value 0.7904 critic 1.6856 actor 0.0974 (val actor 0.1044) | V 0.878 Q 0.878 Q succ/fail 0.903/0.819 | 1.47 it/s
+2026-11-05 08:04:17,539 - INFO - [step 17000] loss value 0.7863 critic 1.6570 actor 0.0975 (val actor 0.0966) | V 0.879 Q 0.879 Q succ/fail 0.904/0.820 | 1.47 it/s
+2026-11-05 08:09:57,855 - INFO - [step 17500] loss value 0.7748 critic 1.6405 actor 0.0953 (val actor 0.1264) | V 0.878 Q 0.878 Q succ/fail 0.904/0.815 | 1.47 it/s
+2026-11-05 08:15:38,146 - INFO - [step 18000] loss value 0.7853 critic 1.6454 actor 0.0963 (val actor 0.0933) | V 0.878 Q 0.878 Q succ/fail 0.905/0.814 | 1.47 it/s
+2026-11-05 08:19:41,309 - INFO - [step 18000] Rotated to shard group 4 (243s)
+2026-11-05 08:25:23,153 - INFO - [step 18500] loss value 0.8724 critic 1.8734 actor 0.1004 (val actor 0.1008) | V 0.887 Q 0.887 Q succ/fail 0.902/0.847 | 0.86 it/s
+2026-11-05 08:31:03,675 - INFO - [step 19000] loss value 0.8172 critic 1.7855 actor 0.1014 (val actor 0.0922) | V 0.887 Q 0.887 Q succ/fail 0.904/0.845 | 1.47 it/s
+2026-11-05 08:36:44,195 - INFO - [step 19500] loss value 0.7766 critic 1.6901 actor 0.0966 (val actor 0.0807) | V 0.888 Q 0.888 Q succ/fail 0.904/0.843 | 1.47 it/s
+2026-11-05 08:42:24,543 - INFO - [step 20000] loss value 0.7761 critic 1.6729 actor 0.0990 (val actor 0.0869) | V 0.887 Q 0.887 Q succ/fail 0.905/0.839 | 1.47 it/s
+2026-11-05 08:44:12,280 - INFO - [step 20000] Eval ifql: success 0.000, length 2500, Q_init 0.826 (succ eps nan / fail eps 0.826), selection gain 0.0186 (108s)
+2026-11-05 08:45:42,761 - INFO - [step 20000] Eval flow_bc: success 0.000, length 2482, Q_init 0.819 (succ eps nan / fail eps 0.819), selection gain 0.0000 (90s)
+2026-11-05 08:46:08,849 - INFO - Checkpoint saved at checkpoints/ifql_double/model_step_20000.pt
+2026-11-05 08:51:49,566 - INFO - [step 20500] loss value 0.7645 critic 1.6224 actor 0.0964 (val actor 0.1154) | V 0.887 Q 0.886 Q succ/fail 0.906/0.835 | 0.89 it/s
+2026-11-05 08:57:29,836 - INFO - [step 21000] loss value 0.7674 critic 1.6134 actor 0.0949 (val actor 0.1125) | V 0.887 Q 0.886 Q succ/fail 0.906/0.833 | 1.47 it/s
+2026-11-05 09:03:10,282 - INFO - [step 21500] loss value 0.7593 critic 1.6021 actor 0.0941 (val actor 0.0805) | V 0.886 Q 0.886 Q succ/fail 0.907/0.831 | 1.47 it/s
+2026-11-05 09:08:50,512 - INFO - [step 22000] loss value 0.7533 critic 1.5778 actor 0.0939 (val actor 0.0897) | V 0.886 Q 0.885 Q succ/fail 0.907/0.828 | 1.47 it/s
+2026-11-05 09:14:30,803 - INFO - [step 22500] loss value 0.7569 critic 1.5769 actor 0.0920 (val actor 0.0912) | V 0.886 Q 0.886 Q succ/fail 0.908/0.826 | 1.47 it/s
+2026-11-05 09:19:03,121 - INFO - [step 22500] Rotated to shard group 5 (272s)
+2026-11-05 09:24:45,590 - INFO - [step 23000] loss value 0.8590 critic 1.8438 actor 0.0950 (val actor 0.0886) | V 0.891 Q 0.890 Q succ/fail 0.905/0.850 | 0.81 it/s
+2026-11-05 09:30:25,959 - INFO - [step 23500] loss value 0.7997 critic 1.7397 actor 0.0943 (val actor 0.0935) | V 0.891 Q 0.890 Q succ/fail 0.906/0.847 | 1.47 it/s
+2026-11-05 09:36:06,321 - INFO - [step 24000] loss value 0.7670 critic 1.6485 actor 0.0932 (val actor 0.0954) | V 0.891 Q 0.890 Q succ/fail 0.907/0.843 | 1.47 it/s
+2026-11-05 09:41:46,556 - INFO - [step 24500] loss value 0.7654 critic 1.6291 actor 0.0925 (val actor 0.1035) | V 0.890 Q 0.889 Q succ/fail 0.907/0.840 | 1.47 it/s
+2026-11-05 09:47:26,908 - INFO - [step 25000] loss value 0.7527 critic 1.5806 actor 0.0906 (val actor 0.1206) | V 0.890 Q 0.889 Q succ/fail 0.908/0.837 | 1.47 it/s
+2026-11-05 09:53:07,294 - INFO - [step 25500] loss value 0.7523 critic 1.5737 actor 0.0907 (val actor 0.0965) | V 0.889 Q 0.888 Q succ/fail 0.908/0.834 | 1.47 it/s
+2026-11-05 09:58:47,748 - INFO - [step 26000] loss value 0.7494 critic 1.5638 actor 0.0878 (val actor 0.0747) | V 0.888 Q 0.887 Q succ/fail 0.908/0.831 | 1.47 it/s
+2026-11-05 10:04:27,999 - INFO - [step 26500] loss value 0.7360 critic 1.5406 actor 0.0877 (val actor 0.1170) | V 0.888 Q 0.887 Q succ/fail 0.909/0.827 | 1.47 it/s
+2026-11-05 10:10:08,250 - INFO - [step 27000] loss value 0.7403 critic 1.5492 actor 0.0892 (val actor 0.0938) | V 0.887 Q 0.886 Q succ/fail 0.909/0.824 | 1.47 it/s
+2026-11-05 10:15:25,999 - INFO - [step 27000] Rotated to shard group 6 (317s)
+2026-11-05 10:21:08,352 - INFO - [step 27500] loss value 0.8691 critic 1.8625 actor 0.0912 (val actor 0.0826) | V 0.890 Q 0.888 Q succ/fail 0.906/0.846 | 0.76 it/s
+2026-11-05 10:26:48,587 - INFO - [step 28000] loss value 0.8047 critic 1.7445 actor 0.0909 (val actor 0.0712) | V 0.889 Q 0.887 Q succ/fail 0.906/0.842 | 1.47 it/s
+2026-11-05 10:32:28,877 - INFO - [step 28500] loss value 0.7655 critic 1.6428 actor 0.0897 (val actor 0.1063) | V 0.888 Q 0.887 Q succ/fail 0.907/0.837 | 1.47 it/s
+2026-11-05 10:38:09,104 - INFO - [step 29000] loss value 0.7650 critic 1.6264 actor 0.0883 (val actor 0.0840) | V 0.888 Q 0.886 Q succ/fail 0.908/0.834 | 1.47 it/s
+2026-11-05 10:43:49,458 - INFO - [step 29500] loss value 0.7513 critic 1.5782 actor 0.0870 (val actor 0.1023) | V 0.887 Q 0.885 Q succ/fail 0.908/0.831 | 1.47 it/s
+2026-11-07 07:32:55,164 - INFO - Resumed from checkpoints/ifql_double/last.pt at step 20000, shard group 4
+2026-11-07 07:38:48,461 - INFO - [step 20500] loss value 0.7600 critic 1.6161 actor 0.0967 (val actor 0.0717) | V 0.887 Q 0.887 Q succ/fail 0.906/0.836 | 1.42 it/s
+2026-11-07 07:44:28,671 - INFO - [step 21000] loss value 0.7739 critic 1.6264 actor 0.0958 (val actor 0.0815) | V 0.887 Q 0.886 Q succ/fail 0.906/0.833 | 1.47 it/s
+2026-11-07 07:50:08,942 - INFO - [step 21500] loss value 0.7538 critic 1.5812 actor 0.0938 (val actor 0.0885) | V 0.887 Q 0.886 Q succ/fail 0.907/0.830 | 1.47 it/s
+2026-11-07 07:55:49,171 - INFO - [step 22000] loss value 0.7597 critic 1.5937 actor 0.0931 (val actor 0.0828) | V 0.886 Q 0.885 Q succ/fail 0.907/0.828 | 1.47 it/s
+2026-11-07 08:01:55,200 - INFO - [step 22500] loss value 0.7465 critic 1.5628 actor 0.0920 (val actor 0.0999) | V 0.886 Q 0.885 Q succ/fail 0.908/0.825 | 1.37 it/s
+2026-11-07 08:05:57,717 - INFO - [step 22500] Rotated to shard group 5 (242s)
+2026-11-07 08:11:38,828 - INFO - [step 23000] loss value 0.8573 critic 1.8489 actor 0.0957 (val actor 0.0762) | V 0.891 Q 0.890 Q succ/fail 0.905/0.850 | 0.86 it/s
+2026-11-07 08:17:19,056 - INFO - [step 23500] loss value 0.8017 critic 1.7433 actor 0.0930 (val actor 0.0721) | V 0.890 Q 0.889 Q succ/fail 0.906/0.846 | 1.47 it/s
+2026-11-07 08:22:59,269 - INFO - [step 24000] loss value 0.7643 critic 1.6440 actor 0.0926 (val actor 0.0871) | V 0.890 Q 0.889 Q succ/fail 0.907/0.842 | 1.47 it/s
+2026-11-07 08:29:03,819 - INFO - [step 24500] loss value 0.7666 critic 1.6340 actor 0.0914 (val actor 0.0952) | V 0.890 Q 0.889 Q succ/fail 0.907/0.840 | 1.37 it/s
+2026-11-07 08:34:44,031 - INFO - [step 25000] loss value 0.7550 critic 1.5904 actor 0.0914 (val actor 0.0843) | V 0.889 Q 0.888 Q succ/fail 0.907/0.837 | 1.47 it/s
+2026-11-07 08:40:24,239 - INFO - [step 25500] loss value 0.7541 critic 1.5761 actor 0.0889 (val actor 0.1027) | V 0.888 Q 0.888 Q succ/fail 0.908/0.833 | 1.47 it/s
+2026-11-07 08:46:04,471 - INFO - [step 26000] loss value 0.7486 critic 1.5671 actor 0.0888 (val actor 0.0861) | V 0.888 Q 0.887 Q succ/fail 0.908/0.830 | 1.47 it/s
+2026-11-07 08:52:09,492 - INFO - [step 26500] loss value 0.7385 critic 1.5433 actor 0.0880 (val actor 0.0847) | V 0.888 Q 0.887 Q succ/fail 0.909/0.827 | 1.37 it/s
+2026-11-07 08:57:49,863 - INFO - [step 27000] loss value 0.7459 critic 1.5570 actor 0.0871 (val actor 0.0755) | V 0.886 Q 0.885 Q succ/fail 0.909/0.824 | 1.47 it/s
+2026-11-07 09:01:52,102 - INFO - [step 27000] Rotated to shard group 6 (242s)
+2026-11-07 09:07:33,302 - INFO - [step 27500] loss value 0.8680 critic 1.8571 actor 0.0917 (val actor 0.0880) | V 0.889 Q 0.888 Q succ/fail 0.905/0.846 | 0.86 it/s
+2026-11-07 09:13:13,508 - INFO - [step 28000] loss value 0.8066 critic 1.7550 actor 0.0914 (val actor 0.0896) | V 0.889 Q 0.887 Q succ/fail 0.906/0.842 | 1.47 it/s
+2026-11-07 09:19:18,497 - INFO - [step 28500] loss value 0.7663 critic 1.6506 actor 0.0880 (val actor 0.0908) | V 0.888 Q 0.886 Q succ/fail 0.907/0.837 | 1.37 it/s
+2026-11-07 09:24:58,726 - INFO - [step 29000] loss value 0.7655 critic 1.6295 actor 0.0888 (val actor 0.0868) | V 0.887 Q 0.885 Q succ/fail 0.907/0.833 | 1.47 it/s
+2026-11-07 09:30:39,134 - INFO - [step 29500] loss value 0.7513 critic 1.5881 actor 0.0885 (val actor 0.0864) | V 0.886 Q 0.885 Q succ/fail 0.908/0.830 | 1.47 it/s
+2026-11-07 09:36:19,363 - INFO - [step 30000] loss value 0.7533 critic 1.5763 actor 0.0860 (val actor 0.0790) | V 0.886 Q 0.884 Q succ/fail 0.908/0.825 | 1.47 it/s
+2026-11-07 09:38:18,427 - INFO - [step 30000] Eval ifql: success 0.000, length 2500, Q_init 0.840 (succ eps nan / fail eps 0.840), selection gain 0.0183 (119s)
+2026-11-07 09:39:47,095 - INFO - [step 30000] Eval flow_bc: success 0.000, length 2500, Q_init 0.827 (succ eps nan / fail eps 0.827), selection gain 0.0000 (89s)
+2026-11-07 09:40:13,038 - INFO - Checkpoint saved at checkpoints/ifql_double/model_step_30000.pt
+2026-11-07 09:45:53,297 - INFO - [step 30500] loss value 0.7478 critic 1.5642 actor 0.0860 (val actor 0.1012) | V 0.885 Q 0.883 Q succ/fail 0.909/0.823 | 0.87 it/s
+2026-11-07 09:51:33,510 - INFO - [step 31000] loss value 0.7362 critic 1.5432 actor 0.0850 (val actor 0.0783) | V 0.883 Q 0.882 Q succ/fail 0.909/0.818 | 1.47 it/s
+2026-11-07 09:57:13,840 - INFO - [step 31500] loss value 0.7396 critic 1.5505 actor 0.0846 (val actor 0.1253) | V 0.883 Q 0.881 Q succ/fail 0.909/0.814 | 1.47 it/s
+2026-11-07 10:01:17,471 - INFO - [step 31500] Rotated to shard group 7 (243s)
+2026-11-07 10:06:58,687 - INFO - [step 32000] loss value 0.8674 critic 1.8621 actor 0.0894 (val actor 0.0838) | V 0.889 Q 0.887 Q succ/fail 0.905/0.845 | 0.86 it/s
+2026-11-07 10:13:03,349 - INFO - [step 32500] loss value 0.7982 critic 1.7348 actor 0.0897 (val actor 0.0739) | V 0.888 Q 0.887 Q succ/fail 0.906/0.841 | 1.37 it/s
+2026-11-07 10:18:43,618 - INFO - [step 33000] loss value 0.7630 critic 1.6333 actor 0.0862 (val actor 0.0780) | V 0.887 Q 0.886 Q succ/fail 0.907/0.837 | 1.47 it/s
+2026-11-07 10:24:23,829 - INFO - [step 33500] loss value 0.7602 critic 1.6134 actor 0.0875 (val actor 0.0962) | V 0.887 Q 0.886 Q succ/fail 0.907/0.834 | 1.47 it/s
+2026-11-07 10:30:04,042 - INFO - [step 34000] loss value 0.7471 critic 1.5680 actor 0.0848 (val actor 0.1069) | V 0.886 Q 0.885 Q succ/fail 0.908/0.830 | 1.47 it/s
+2026-11-07 10:36:08,645 - INFO - [step 34500] loss value 0.7466 critic 1.5548 actor 0.0844 (val actor 0.0892) | V 0.886 Q 0.884 Q succ/fail 0.909/0.827 | 1.37 it/s
+2026-11-07 10:41:48,975 - INFO - [step 35000] loss value 0.7407 critic 1.5440 actor 0.0833 (val actor 0.0972) | V 0.885 Q 0.884 Q succ/fail 0.909/0.824 | 1.47 it/s
+2026-11-07 10:47:29,205 - INFO - [step 35500] loss value 0.7298 critic 1.5274 actor 0.0825 (val actor 0.0894) | V 0.884 Q 0.883 Q succ/fail 0.910/0.819 | 1.47 it/s
+2026-11-07 10:53:09,511 - INFO - [step 36000] loss value 0.7331 critic 1.5343 actor 0.0826 (val actor 0.1006) | V 0.883 Q 0.882 Q succ/fail 0.909/0.817 | 1.47 it/s
+2026-11-07 10:57:37,471 - INFO - [step 36000] Rotated to shard group 8 (243s)
+2026-11-07 11:03:18,997 - INFO - [step 36500] loss value 0.8675 critic 1.8562 actor 0.0877 (val actor 0.0892) | V 0.889 Q 0.887 Q succ/fail 0.905/0.845 | 0.82 it/s
+2026-11-07 11:08:59,206 - INFO - [step 37000] loss value 0.8002 critic 1.7383 actor 0.0880 (val actor 0.0851) | V 0.889 Q 0.887 Q succ/fail 0.907/0.841 | 1.47 it/s
+2026-11-07 11:14:39,577 - INFO - [step 37500] loss value 0.7618 critic 1.6236 actor 0.0863 (val actor 0.1081) | V 0.888 Q 0.886 Q succ/fail 0.908/0.836 | 1.47 it/s
+2026-11-07 11:20:52,421 - INFO - [step 38000] loss value 0.7615 critic 1.6105 actor 0.0848 (val actor 0.0875) | V 0.887 Q 0.885 Q succ/fail 0.907/0.833 | 1.34 it/s
+2026-11-07 11:26:57,763 - INFO - [step 38500] loss value 0.7470 critic 1.5645 actor 0.0835 (val actor 0.0834) | V 0.886 Q 0.885 Q succ/fail 0.908/0.830 | 1.37 it/s
+2026-11-07 11:32:37,993 - INFO - [step 39000] loss value 0.7444 critic 1.5585 actor 0.0831 (val actor 0.0770) | V 0.885 Q 0.884 Q succ/fail 0.908/0.825 | 1.47 it/s
+2026-11-07 11:38:18,300 - INFO - [step 39500] loss value 0.7378 critic 1.5493 actor 0.0827 (val actor 0.0764) | V 0.885 Q 0.883 Q succ/fail 0.909/0.824 | 1.47 it/s
+2026-11-07 11:43:58,511 - INFO - [step 40000] loss value 0.7245 critic 1.5226 actor 0.0817 (val actor 0.0752) | V 0.884 Q 0.882 Q succ/fail 0.909/0.818 | 1.47 it/s
+2026-11-07 11:45:45,449 - INFO - [step 40000] Eval ifql: success 0.040, length 2479, Q_init 0.842 (succ eps 0.845 / fail eps 0.841), selection gain 0.0175 (107s)
+2026-11-07 11:47:13,154 - INFO - [step 40000] Eval flow_bc: success 0.010, length 2492, Q_init 0.827 (succ eps 0.856 / fail eps 0.826), selection gain 0.0000 (88s)
+2026-11-07 11:47:39,185 - INFO - Checkpoint saved at checkpoints/ifql_double/model_step_40000.pt
+2026-11-07 11:53:19,488 - INFO - [step 40500] loss value 0.7293 critic 1.5365 actor 0.0811 (val actor 0.1098) | V 0.883 Q 0.882 Q succ/fail 0.909/0.816 | 0.89 it/s
+2026-11-16 07:43:58,074 - INFO - Resumed from checkpoints/ifql_double/last.pt at step 40000, shard group 8
+2026-11-16 07:49:55,573 - INFO - [step 40500] loss value 0.7145 critic 1.5116 actor 0.0814 (val actor 0.0677) | V 0.883 Q 0.881 Q succ/fail 0.910/0.815 | 1.40 it/s
+2026-11-16 07:53:53,846 - INFO - [step 40500] Rotated to shard group 9 (237s)
+2026-11-16 07:59:35,303 - INFO - [step 41000] loss value 0.8722 critic 1.8569 actor 0.0853 (val actor 0.0711) | V 0.888 Q 0.887 Q succ/fail 0.906/0.841 | 0.86 it/s
+2026-11-16 08:05:15,533 - INFO - [step 41500] loss value 0.8001 critic 1.7262 actor 0.0840 (val actor 0.0765) | V 0.888 Q 0.887 Q succ/fail 0.907/0.838 | 1.47 it/s
+2026-11-16 08:10:55,809 - INFO - [step 42000] loss value 0.7583 critic 1.6175 actor 0.0839 (val actor 0.0672) | V 0.887 Q 0.886 Q succ/fail 0.908/0.832 | 1.47 it/s
+2026-11-16 08:17:00,680 - INFO - [step 42500] loss value 0.7561 critic 1.5981 actor 0.0823 (val actor 0.0915) | V 0.887 Q 0.886 Q succ/fail 0.908/0.830 | 1.37 it/s
+2026-11-16 08:22:41,069 - INFO - [step 43000] loss value 0.7430 critic 1.5622 actor 0.0810 (val actor 0.0661) | V 0.886 Q 0.885 Q succ/fail 0.908/0.826 | 1.47 it/s
+2026-11-16 08:28:21,299 - INFO - [step 43500] loss value 0.7357 critic 1.5390 actor 0.0807 (val actor 0.0622) | V 0.885 Q 0.884 Q succ/fail 0.910/0.822 | 1.47 it/s
+2026-11-16 08:34:01,551 - INFO - [step 44000] loss value 0.7304 critic 1.5258 actor 0.0805 (val actor 0.0828) | V 0.885 Q 0.883 Q succ/fail 0.910/0.818 | 1.47 it/s
+2026-11-16 08:40:06,715 - INFO - [step 44500] loss value 0.7201 critic 1.5067 actor 0.0784 (val actor 0.0834) | V 0.883 Q 0.882 Q succ/fail 0.910/0.814 | 1.37 it/s
+2026-11-16 08:45:47,146 - INFO - [step 45000] loss value 0.7199 critic 1.5093 actor 0.0793 (val actor 0.0716) | V 0.884 Q 0.883 Q succ/fail 0.911/0.812 | 1.47 it/s
+2026-11-16 08:49:45,787 - INFO - [step 45000] Rotated to shard group 10 (238s)

@@ -11,8 +11,8 @@
 #   conda activate temporal
 #   cd ~/il-experiment && bash setup.sh 2>&1 | tee setup_double.log
 #
-# Re-running is safe: finished downloads, trainings and evaluations are skipped; an interrupted BC run resumes from
-# its last.pt (an interrupted IFQL run restarts). Rough time: BC ~9 h, IFQL ~17 h, held-out evals ~6 h.
+# Re-running is safe: finished downloads, trainings and evaluations are skipped; interrupted BC / IFQL runs resume from
+# their last.pt. Rough time: BC ~9 h, IFQL ~17 h, held-out evals ~6 h.
 # Knobs (environment variables): STEPS (default 70000), RESERVE_GB (default 30).
 set -euo pipefail
 
@@ -57,9 +57,10 @@ stage "3/6 train IFQL ($STEPS steps)"
 if [ -f "checkpoints/$IFQL_RUN/model_step_${STEPS}.pt" ]; then
     echo "already trained, skipping"
 else
-    rm -rf "checkpoints/$IFQL_RUN"  # IFQL can't resume: start clean
+    resume=None
+    [ -f "checkpoints/$IFQL_RUN/last.pt" ] && resume="checkpoints/$IFQL_RUN/last.pt" && echo "resuming from $resume"
     # 20 shards (~66 GB, all episodes) in RAM at a time, next group every 4.5k steps
-    python agents/ifql_torch.py --set env_name=$ENV run_name=$IFQL_RUN num_steps="$STEPS" \
+    python agents/ifql_torch.py --set env_name=$ENV run_name=$IFQL_RUN resume="$resume" num_steps="$STEPS" \
         num_shards=None shard_group_size=20 rotate_every=4500 num_val_shards=10 \
         eval_interval=10000 eval_episodes=100 save_interval=10000
 fi

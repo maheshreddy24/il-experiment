@@ -1,0 +1,30 @@
+2026-11-02 05:32:56,530 - INFO - Epoch [1/10], Train Loss: 0.0816
+2026-11-02 05:32:57,150 - INFO - Evaluation Loss: 0.0625
+2026-11-02 05:32:57,155 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_1.pt
+2026-11-02 05:33:07,398 - INFO - Epoch [2/10], Train Loss: 0.0595
+2026-11-02 05:33:08,017 - INFO - Evaluation Loss: 0.0567
+2026-11-02 05:33:08,020 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_2.pt
+2026-11-02 05:33:18,072 - INFO - Epoch [3/10], Train Loss: 0.0553
+2026-11-02 05:33:18,803 - INFO - Evaluation Loss: 0.0569
+2026-11-02 05:33:18,806 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_3.pt
+2026-11-02 05:33:28,846 - INFO - Epoch [4/10], Train Loss: 0.0530
+2026-11-02 05:33:29,468 - INFO - Evaluation Loss: 0.0525
+2026-11-02 05:33:29,471 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_4.pt
+2026-11-02 05:33:39,667 - INFO - Epoch [5/10], Train Loss: 0.0517
+2026-11-02 05:33:40,287 - INFO - Evaluation Loss: 0.0518
+2026-11-02 05:33:40,290 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_5.pt
+2026-11-02 05:33:50,480 - INFO - Epoch [6/10], Train Loss: 0.0507
+2026-11-02 05:33:51,099 - INFO - Evaluation Loss: 0.0494
+2026-11-02 05:33:51,102 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_6.pt
+2026-11-02 05:34:01,175 - INFO - Epoch [7/10], Train Loss: 0.0500
+2026-11-02 05:34:01,914 - INFO - Evaluation Loss: 0.0488
+2026-11-02 05:34:01,916 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_7.pt
+2026-11-02 05:34:12,034 - INFO - Epoch [8/10], Train Loss: 0.0493
+2026-11-02 05:34:12,665 - INFO - Evaluation Loss: 0.0493
+2026-11-02 05:34:12,668 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_8.pt
+2026-11-02 05:34:22,884 - INFO - Epoch [9/10], Train Loss: 0.0489
+2026-11-02 05:34:23,505 - INFO - Evaluation Loss: 0.0496
+2026-11-02 05:34:23,508 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_9.pt
+2026-11-02 05:34:33,728 - INFO - Epoch [10/10], Train Loss: 0.0485
+2026-11-02 05:34:34,349 - INFO - Evaluation Loss: 0.0472
+2026-11-02 05:34:34,352 - INFO - Checkpoint saved at checkpoints/exp_1793597565/model_epoch_10.pt

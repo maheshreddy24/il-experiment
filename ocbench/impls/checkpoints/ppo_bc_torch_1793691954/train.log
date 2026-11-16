@@ -1,0 +1,5 @@
+2026-11-03 07:46:44,668 - INFO - [iter 0] Eval (mean action): success 0.640 ± 0.048, length 955 (50s)
+2026-11-03 07:49:51,846 - INFO - [iter 1] rollout success 0.310 (4532 decisions) | policy nan value 0.3506 bc/dim nan (lambda 1.000) | kl nan clip nan std 0.135 EV -0.18 [critic warmup] | 163s + 24s
+2026-11-03 07:51:02,769 - INFO - [iter 2] rollout success 0.260 (4525 decisions) | policy nan value 0.0379 bc/dim nan (lambda 1.000) | kl nan clip nan std 0.135 EV 0.03 [critic warmup] | 60s + 11s
+2026-11-03 07:52:54,094 - INFO - [iter 3] rollout success 0.400 (4283 decisions) | policy nan value 0.0412 bc/dim nan (lambda 1.000) | kl nan clip nan std 0.135 EV 0.37 [critic warmup] | 101s + 11s
+2026-11-03 07:54:09,152 - INFO - [iter 4] rollout success 0.270 (4568 decisions) | policy -0.0003 value 0.0325 bc/dim -0.972 (lambda 1.000) | kl 0.0255 clip 0.271 std 0.132 EV 0.43 | 43s + 32s

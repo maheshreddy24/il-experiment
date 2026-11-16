@@ -1,0 +1,17 @@
+2026-11-02 07:32:14,723 - INFO - [step 1000] Train Loss: 0.1042, Val Loss: 0.0688, 2.61 it/s
+2026-11-02 07:38:15,159 - INFO - [step 2000] Train Loss: 0.0724, Val Loss: 0.0581, 2.78 it/s
+2026-11-02 07:44:15,667 - INFO - [step 3000] Train Loss: 0.0652, Val Loss: 0.0674, 2.77 it/s
+2026-11-02 07:50:16,050 - INFO - [step 4000] Train Loss: 0.0614, Val Loss: 0.0470, 2.78 it/s
+2026-11-02 07:56:16,493 - INFO - [step 5000] Train Loss: 0.0584, Val Loss: 0.0513, 2.78 it/s
+2026-11-02 08:02:16,895 - INFO - [step 6000] Train Loss: 0.0559, Val Loss: 0.0554, 2.78 it/s
+2026-11-02 08:08:17,277 - INFO - [step 7000] Train Loss: 0.0527, Val Loss: 0.0514, 2.78 it/s
+2026-11-02 08:14:17,537 - INFO - [step 8000] Train Loss: 0.0492, Val Loss: 0.0561, 2.78 it/s
+2026-11-02 08:20:18,056 - INFO - [step 9000] Train Loss: 0.0462, Val Loss: 0.0496, 2.78 it/s
+2026-11-02 08:26:17,770 - INFO - [step 10000] Train Loss: 0.0431, Val Loss: 0.0538, 2.78 it/s
+2026-11-02 08:32:17,653 - INFO - [step 11000] Train Loss: 0.0398, Val Loss: 0.0486, 2.78 it/s
+2026-11-02 08:38:17,673 - INFO - [step 12000] Train Loss: 0.0363, Val Loss: 0.0568, 2.78 it/s
+2026-11-02 08:44:16,899 - INFO - [step 13000] Train Loss: 0.0323, Val Loss: 0.0595, 2.78 it/s
+2026-11-02 08:50:16,147 - INFO - [step 14000] Train Loss: 0.0283, Val Loss: 0.0625, 2.78 it/s
+2026-11-02 08:56:14,545 - INFO - [step 15000] Train Loss: 0.0242, Val Loss: 0.0645, 2.79 it/s
+2026-11-02 09:02:12,730 - INFO - [step 16000] Train Loss: 0.0203, Val Loss: 0.0636, 2.79 it/s
+2026-11-02 09:08:11,187 - INFO - [step 17000] Train Loss: 0.0171, Val Loss: 0.0619, 2.79 it/s

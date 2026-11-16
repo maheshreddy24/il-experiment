@@ -5,18 +5,17 @@ __pycache__/
 .vscode/
 .idea/
 
-# Large artifacts: model checkpoints, rollout/analysis arrays, run directories, datasets
+# Model weights: 0.6-3.8 GB each, over GitHub's 100 MB per-file limit
 *.pt
-*.npz
 *.pkl
-checkpoints/
-ocbench/impls/checkpoints/
-ocbench/impls/exp/
 wandb/
-*.mp4
 
-# Logs from long runs
-*.log
+# Debug runs, not results
+ocbench/impls/exp/
+
+# Logs too large for GitHub (tqdm progress dumps: 46 MB and growing, 423 MB)
+setup_double.log
+ocbench/impls/checkpoints/analysis/heldout_run.log
 
 # Upstream ocbench's original git history (moved aside when vendoring)
 ocbench.git.bak/
